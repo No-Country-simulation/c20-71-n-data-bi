@@ -1,3 +1,6 @@
 data_bi/
 __pycache__/
 *.pyc
+
+# ambiente virtual
+venv/

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 beautifulsoup4==4.12.3
 certifi==2024.8.30
 charset-normalizer==3.3.2
@@ -18,4 +19,6 @@ soupsieve==2.6
 tzdata==2024.1
 urllib3==2.2.2
 webencodings==0.5.1
+=======
+>>>>>>> fbfb8c176468dc4d65c53a3df617ea28026de189
 yfinance==0.2.43
