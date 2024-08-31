@@ -48,8 +48,12 @@ def clean_data_task(**kwargs):
     return clean_dataset(data)
 
 def load_data_task(**kwargs):
-    data = kwargs['task_instance'].xcom_pull(task_ids='clean_data')
-    load_data_to_db(data, 'nombre_de_la_tabla')
+    directory = 'datasets'
+    for file_name in os.listdir(directory):
+        if file_name.endswith('.csv'):
+            file_path = os.path.join(directory, file_name)
+            load_data_to_db(file_path)
+            logging.info(f'Datos cargados en la tabla para el archivo {file_name}')
 
 
 # Configuración del logging
@@ -86,7 +90,7 @@ download_data_op = PythonOperator(
 extract_data_op = PythonOperator(
     task_id='extract_data',
     python_callable=extract_data_task,
-    op_kwargs={'file_path': 'datasets/bbva_historical_data.csv'},  # Ajustar el path segun tu necesidad
+    op_kwargs={'directory': 'datasets'},
     dag=dag,
 )
 

@@ -1,3 +1,8 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 # postgres credentials
 POSTGRES_USERNAME = os.getenv('POSTGRES_USERNAME')
 POSTGRES_PASSWORD = os.getenv('POSTGRES_PASSWORD')
