@@ -1,1 +1,16 @@
+# Ignorar archivos de entorno
 .env
+
+# Logs
+logs/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Docker
+*.log
+*.pid
+*.lock
+*.log.*

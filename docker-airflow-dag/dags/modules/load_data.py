@@ -1,6 +1,6 @@
 # import psycopg2
 # from psycopg2 import sql
-from modules.parameters import POSTGRES_USERNAME, POSTGRES_PASSWORD, POSTGRES_DB, POSTGRES_PORT
+from parameters import POSTGRES_USERNAME, POSTGRES_PASSWORD, POSTGRES_DB, POSTGRES_PORT
 import pandas as pd
 from sqlalchemy import create_engine
 import os
