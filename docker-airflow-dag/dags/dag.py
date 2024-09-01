@@ -2,17 +2,16 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime
 import logging
-import os
+import os  # Importar el módulo os
 
 # Importar funciones desde los módulos
 from modules.data_from_webScrapping import create_directory, download_historical_data, get_tickers
 from modules.extract_data import extract_data
-from modules.clean_data import clean_dataset
 from modules.load_data import load_data_to_db
 from modules.validate_credentials import validate_credentials
 from dotenv import load_dotenv
 
-load_dotenv()  # Corrección del error tipográfico
+load_dotenv()  # Cargar las variables de entorno
 
 # Funciones de la pipeline
 
@@ -27,8 +26,13 @@ def download_all_data(**kwargs):
 
     # Descargar datos para cada ticker
     for key, ticker in tickers_dict.items():
-        output_file = os.path.join(datasets_path, f'{key}_historical_data.csv')
-        download_historical_data(ticker, start_date, end_date, output_file)
+        try:
+            output_file = os.path.join(datasets_path, f'{key}_historical_data.csv')
+            download_historical_data(ticker, start_date, end_date, output_file)
+            logging.info(f'Dataset descargado y guardado para: {key}')
+        except Exception as e:
+            logging.error(f'Error descargando datos para {key}: {str(e)}')
+            raise  # Re-lanzar la excepción para que Airflow registre el fallo
 
 def validate_credentials_task(**kwargs):
     if not validate_credentials():
@@ -43,10 +47,6 @@ def extract_data_task(**kwargs):
             data = extract_data(file_path)
             all_data.append(data)
     return all_data
-
-def clean_data_task(**kwargs):
-    data = kwargs['task_instance'].xcom_pull(task_ids='extract_data')
-    return clean_dataset(data)
 
 def load_data_task(**kwargs):
     directory = 'datasets'
@@ -83,20 +83,14 @@ validate_credentials_op = PythonOperator(
 
 download_data_op = PythonOperator(
     task_id='download_data',
-    python_callable=download_all_data,
+    python_callable=download_all_data,  # Función para descargar datos
     dag=dag,
 )
 
 extract_data_op = PythonOperator(
     task_id='extract_data',
     python_callable=extract_data_task,
-    op_kwargs={'file_path': 'datasets'},
-    dag=dag,
-)
-
-clean_data_op = PythonOperator(
-    task_id='clean_data',
-    python_callable=clean_data_task,
+    op_kwargs={'file_path': 'datasets'},  # Directorio de archivos CSV
     dag=dag,
 )
 
@@ -107,5 +101,4 @@ load_data_op = PythonOperator(
 )
 
 # Definir la secuencia de tareas
-validate_credentials_op >> download_data_op >> extract_data_op >> clean_data_op >> load_data_op
-
+validate_credentials_op >> download_data_op >> extract_data_op >> load_data_op
