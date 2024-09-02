@@ -15,13 +15,32 @@ load_dotenv()  # Cargar las variables de entorno
 
 # Funciones de la pipeline
 
+# def download_all_data(**kwargs):
+#     datasets_path = 'datasets/'
+#     tickers_dict = get_tickers()
+#     start_date = '2023-01-01'
+#     end_date = datetime.today().strftime('%Y-%m-%d')
+
+#     # Crear carpeta para datasets
+#     create_directory(datasets_path)
+
+#     # Descargar datos para cada ticker
+#     for key, ticker in tickers_dict.items():
+#         try:
+#             output_file = os.path.join(datasets_path, f'{key}_historical_data.csv')
+#             download_historical_data(ticker, start_date, end_date, output_file)
+#             logging.info(f'Dataset descargado y guardado para: {key}')
+#         except Exception as e:
+#             logging.error(f'Error descargando datos para {key}: {str(e)}')
+#             raise  # Re-lanzar la excepción para que Airflow registre el fallo
+
 def download_all_data(**kwargs):
-    datasets_path = 'datasets/'
+    datasets_path = os.path.join(os.path.dirname(__file__), 'datasets/')  # Ruta a la carpeta datasets
     tickers_dict = get_tickers()
     start_date = '2023-01-01'
     end_date = datetime.today().strftime('%Y-%m-%d')
 
-    # Crear carpeta para datasets
+    # Crear carpeta para datasets si no existe
     create_directory(datasets_path)
 
     # Descargar datos para cada ticker
@@ -33,6 +52,7 @@ def download_all_data(**kwargs):
         except Exception as e:
             logging.error(f'Error descargando datos para {key}: {str(e)}')
             raise  # Re-lanzar la excepción para que Airflow registre el fallo
+
 
 def validate_credentials_task(**kwargs):
     if not validate_credentials():
