@@ -44,6 +44,33 @@ import os
 
 
 
+# def load_data_to_db(file_path):
+#     # Extraer el nombre del archivo sin la extensión
+#     table_name = os.path.splitext(os.path.basename(file_path))[0]
+
+#     # Leer el archivo CSV en un DataFrame
+#     data = pd.read_csv(file_path)
+
+#     # Crear la conexión a la base de datos
+#     conn_string = f"postgresql://{POSTGRES_USERNAME}:{POSTGRES_PASSWORD}@localhost:{POSTGRES_PORT}/{POSTGRES_DB}"
+#     engine = create_engine(conn_string)
+
+#     # Cargar los datos en la base de datos en una tabla con el nombre de la empresa
+#     try:
+#         data.to_sql(table_name, engine, if_exists='replace', index=False)
+#         print(f"Datos cargados en la tabla {table_name} correctamente.")
+#     except Exception as e:
+#         print(f"Error al cargar datos: {e}")
+
+# # Función para cargar todos los archivos CSV en la carpeta datasets
+# def load_all_data_from_directory(directory):
+#     for file_name in os.listdir(directory):
+#         if file_name.endswith('.csv'):
+#             file_path = os.path.join(directory, file_name)
+#             load_data_to_db(file_path)
+
+
+
 def load_data_to_db(file_path):
     # Extraer el nombre del archivo sin la extensión
     table_name = os.path.splitext(os.path.basename(file_path))[0]
@@ -62,9 +89,11 @@ def load_data_to_db(file_path):
     except Exception as e:
         print(f"Error al cargar datos: {e}")
 
-# Función para cargar todos los archivos CSV en la carpeta datasets
 def load_all_data_from_directory(directory):
-    for file_name in os.listdir(directory):
+    dags_folder = os.path.dirname(os.path.abspath(__file__))
+    directory_path = os.path.join(dags_folder, directory)
+
+    for file_name in os.listdir(directory_path):
         if file_name.endswith('.csv'):
-            file_path = os.path.join(directory, file_name)
+            file_path = os.path.join(directory_path, file_name)
             load_data_to_db(file_path)
