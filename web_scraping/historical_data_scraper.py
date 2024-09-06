@@ -22,10 +22,9 @@ def download_historical_data(ticker, start_date, end_date, output):
     df.to_csv(output, index=False)
     
 # Diccionario de nombres de empresas con su NYSE
-tickers_dict = {'bbva':'BBVA', 'santander':'SAN', 'jpmorgan':'JPM', 'goldman_sachs':'GSBD', 'citi':'C',
-                'mercado_libre':'MELI', 'globant':'GLOB', 'ypf':'YPF', 'gurpo_financiero_galicia':'GGAL', 'banco_macro':'BMA',
-                'tenaris':'TS', 'pampa_energía':'PAM', 'despegar':'DESP', 'cresud_sociedad_anonima':'CRESY', 'transportadora_de_gas':'TGS',
-                'cemex':'CX', 'grupo_bimbo':'BIMBOA.MX', 'cocacola_femsa':'KOF'
+tickers_dict = {'ypf':'YPF', 'pampa_energía':'PAM', 'ecopetrol':'EC', 'petrobras':'PBR', 'interconexion_electrica':'IESFY',
+                'minas_buenaventura':'BVN', 'eletrobras':'EBR', 'engie_brasil_energia':'EGIE3.SA', 'vista_energy':'VIST',
+                'eas_andes':'AES'
                 }
 
 # Fecha de inicio fija
