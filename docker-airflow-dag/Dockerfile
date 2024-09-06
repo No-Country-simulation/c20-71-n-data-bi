@@ -1,5 +1,6 @@
-
 FROM apache/airflow:2.9.2
+
+USER root
 
 # Set the working directory
 WORKDIR /usr/local/airflow
@@ -18,15 +19,18 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy the requirements file and install Python dependencies
-COPY requirements.txt $AIRFLOW_HOME/requirements.txt
+# Copy the requirements file
+COPY --chown=airflow:root requirements.txt $AIRFLOW_HOME/requirements.txt
+
+# Switch to the airflow user to install Python dependencies
+USER airflow
 RUN pip install --no-cache-dir -r $AIRFLOW_HOME/requirements.txt
 
 # Copy DAGs and modules
-COPY dags / $AIRFLOW_HOME/dags/
+COPY --chown=airflow:root dags / $AIRFLOW_HOME/dags/
 
 # Copy the .env file
-COPY .env /opt/airflow/.env
+COPY --chown=airflow:root .env /opt/airflow/.env
 
 # Initialize the Airflow database
 RUN airflow db init
