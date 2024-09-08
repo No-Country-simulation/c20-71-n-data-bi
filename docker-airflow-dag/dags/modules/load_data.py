@@ -73,7 +73,7 @@ def load_data_to_db(file_path):
     try:
         conn = psycopg2.connect(
             dbname=POSTGRES_DB,
-            user=POSTGRES_USER,
+            user=POSTGRES_USERNAME,
             password=POSTGRES_PASSWORD,
             host=POSTGRES_HOST,
             port=POSTGRES_PORT
