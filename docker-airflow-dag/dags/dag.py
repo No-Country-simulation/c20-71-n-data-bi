@@ -99,11 +99,14 @@ def load_data_task(**kwargs):
     for file_name in os.listdir(datasets_path):
         if file_name.endswith('.csv'):
             file_path = os.path.join(datasets_path, file_name)
-            table_name = file_name.split('_')[0]  # Usa el nombre del archivo antes de '_historical_data' como nombre de la tabla
+            table_name = file_name.replace('.csv', '')  # Usa el nombre completo del archivo sin la extensión .csv
             logging.info(f"Cargando archivo: {file_path} en la tabla: {table_name}")
-            load_data_to_db(file_path, table_name)
-            logging.info(f'Datos cargados en la tabla para el archivo {file_name}')
-
+            try:
+                load_data_to_db(file_path, table_name)  # Carga los datos en la tabla
+            except Exception as e:
+                logging.error(f"Error al cargar los datos en la base de datos: {e}")
+            else:
+                logging.info(f'Datos cargados en la tabla para el archivo {file_name}')
 
 # Configuración del logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
