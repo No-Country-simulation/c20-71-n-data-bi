@@ -111,7 +111,71 @@ import os
 #     except Exception as e:
 #         print(f"Error al cargar datos: {e}")
 
+# def load_data_to_db(file_path, table_name):
+    
+#     # Extraer el nombre del archivo sin la extensión
+#     table_name = os.path.splitext(os.path.basename(file_path))[0]
+
+#      # Leer el archivo CSV en un DataFrame
+#     data = pd.read_csv(file_path)
+
+#     try:
+#         # Conexión a Amazon Redshift
+#         conn = psycopg2.connect(
+#             dbname=POSTGRES_DB,
+#             user=POSTGRES_USERNAME,
+#             password=POSTGRES_PASSWORD,
+#             host=POSTGRES_HOST,
+#             port=POSTGRES_PORT
+#         )
+#         cursor = conn.cursor()
+
+#         # Crear la tabla si no existe
+#         create_table_query = f"""
+#         CREATE TABLE IF NOT EXISTS {table_name} (
+#             "Date" DATE,
+#             "Open" FLOAT,
+#             "High" FLOAT,
+#             "Low" FLOAT,
+#             "Close" FLOAT,
+#             "Volume" BIGINT,
+#             "Dividends" FLOAT,
+#             "Stock_Splits" FLOAT
+#         );
+#         """
+#         cursor.execute(create_table_query)
+#         conn.commit()
+
+#         # Insertar los datos fila por fila
+#         for index, row in data.iterrows():
+#             insert_query = f"""
+#             INSERT INTO {table_name} (Date, Open, High, Low, Close, Volume, Dividends, Stock_Splits)
+#             VALUES ('{row['Date']}', {row['Open']}, {row['High']}, {row['Low']}, {row['Close']}, {row['Volume']}, {row['Dividends']}, {row['Stock Splits']});
+#             """
+#             cursor.execute(insert_query)
+
+#         # Confirmar los cambios en la base de datos
+#         conn.commit()
+#         cursor.close()
+#         conn.close()
+#         print(f"Datos cargados en la tabla {table_name} correctamente.")
+
+#     except psycopg2.Error as e:
+#         print(f"Error al cargar los datos en la base de datos: {e}")
+#     except Exception as e:
+#         print(f"Error general: {e}")
+#     finally:
+#         if conn:
+#             conn.close()
+
 def load_data_to_db(file_path, table_name):
+    
+    # Extraer el nombre del archivo sin la extensión
+    table_name = os.path.splitext(os.path.basename(file_path))[0]
+
+    # Leer el archivo CSV en un DataFrame
+    data = pd.read_csv(file_path)
+
     try:
         # Conexión a Amazon Redshift
         conn = psycopg2.connect(
@@ -139,23 +203,18 @@ def load_data_to_db(file_path, table_name):
         cursor.execute(create_table_query)
         conn.commit()
 
-        # # Cargar los datos usando COPY (mucho más eficiente)
-        # with open(file_path, 'r') as f:
-        #     next(f)  # Saltar la cabecera
-        #     cursor.copy_expert(f"COPY {table_name} FROM STDIN WITH CSV HEADER", f)
+        # Inserción de datos usando Prepared Statements para mayor seguridad
+        insert_query = f"""
+        INSERT INTO {table_name} (Date, Open, High, Low, Close, Volume, Dividends, Stock_Splits)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
+        """
 
-         # Insertar los datos fila por fila
-        for index, row in data.iterrows():
-            insert_query = f"""
-            INSERT INTO {table_name} (Date, Open, High, Low, Close, Volume, Dividends, Stock_Splits)
-            VALUES ('{row['Date']}', {row['Open']}, {row['High']}, {row['Low']}, {row['Close']}, {row['Volume']}, {row['Dividends']}, {row['Stock Splits']});
-            """
-            cursor.execute(insert_query)
+        # Insertar los datos por bloques (batch insert) para mejor rendimiento
+        records = data[['Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'Dividends', 'Stock Splits']].values.tolist()
+        cursor.executemany(insert_query, records)
 
         # Confirmar los cambios en la base de datos
         conn.commit()
-        cursor.close()
-        conn.close()
         print(f"Datos cargados en la tabla {table_name} correctamente.")
 
     except psycopg2.Error as e:
@@ -164,6 +223,7 @@ def load_data_to_db(file_path, table_name):
         print(f"Error general: {e}")
     finally:
         if conn:
+            cursor.close()
             conn.close()
 
 def load_all_data_from_directory(directory):
