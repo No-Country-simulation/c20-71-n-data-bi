@@ -126,14 +126,14 @@ def load_data_to_db(file_path, table_name):
         # Crear la tabla si no existe
         create_table_query = f"""
         CREATE TABLE IF NOT EXISTS {table_name} (
-            Date DATE,
-            Open FLOAT,
-            High FLOAT,
-            Low FLOAT,
-            Close FLOAT,
-            Volume BIGINT,
-            Dividends FLOAT,
-            Stock_Splits FLOAT
+            "Date" DATE,
+            "Open" FLOAT,
+            "High" FLOAT,
+            "Low" FLOAT,
+            "Close" FLOAT,
+            "Volume" BIGINT,
+            "Dividends" FLOAT,
+            "Stock_Splits" FLOAT
         );
         """
         cursor.execute(create_table_query)
