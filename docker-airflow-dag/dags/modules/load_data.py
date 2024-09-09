@@ -205,9 +205,10 @@ def load_data_to_db(file_path, table_name):
 
         # Inserción de datos usando Prepared Statements para mayor seguridad
         insert_query = f"""
-        INSERT INTO {table_name} (Date, Open, High, Low, Close, Volume, Dividends, Stock_Splits)
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
-        """
+            INSERT INTO {table_name} ("Date", "Open", "High", "Low", "Close", "Volume", "Dividends", "Stock_Splits")
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
+            """
+
 
         # Insertar los datos por bloques (batch insert) para mejor rendimiento
         records = data[['Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'Dividends', 'Stock Splits']].values.tolist()
