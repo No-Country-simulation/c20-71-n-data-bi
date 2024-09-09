@@ -139,10 +139,18 @@ def load_data_to_db(file_path, table_name):
         cursor.execute(create_table_query)
         conn.commit()
 
-        # Cargar los datos usando COPY (mucho más eficiente)
-        with open(file_path, 'r') as f:
-            next(f)  # Saltar la cabecera
-            cursor.copy_expert(f"COPY {table_name} FROM STDIN WITH CSV HEADER", f)
+        # # Cargar los datos usando COPY (mucho más eficiente)
+        # with open(file_path, 'r') as f:
+        #     next(f)  # Saltar la cabecera
+        #     cursor.copy_expert(f"COPY {table_name} FROM STDIN WITH CSV HEADER", f)
+
+         # Insertar los datos fila por fila
+        for index, row in data.iterrows():
+            insert_query = f"""
+            INSERT INTO {table_name} (Date, Open, High, Low, Close, Volume, Dividends, Stock_Splits)
+            VALUES ('{row['Date']}', {row['Open']}, {row['High']}, {row['Low']}, {row['Close']}, {row['Volume']}, {row['Dividends']}, {row['Stock Splits']});
+            """
+            cursor.execute(insert_query)
 
         # Confirmar los cambios en la base de datos
         conn.commit()
