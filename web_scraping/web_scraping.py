@@ -25,11 +25,28 @@ def download_historical_data(ticker, start_date, end_date):
     
     return df
 
-# Diccionario de nombres de empresas con su ticker
+# Diccionario actualizado de nombres de empresas de energía con su ticker
 tickers_dict = {
-    'ypf':'YPF', 'pampa_energía':'PAM', 'ecopetrol':'EC', 'petrobras':'PBR', 
-    'interconexion_electrica':'IESFY', 'minas_buenaventura':'BVN', 'eletrobras':'EBR', 
-    'engie_brasil_energia':'EGIE3.SA', 'vista_energy':'VIST', 'eas_andes':'AES'
+    'petrobras': 'PBR',
+    'ecopetrol': 'EC',
+    'eletrobras': 'EBR',
+    'cemig': 'CIG',
+    'pampa_energia': 'PAM',
+    'ypf': 'YPF',
+    'enel_chile': 'ENIC',
+    'companhia_paranaense_de_energia': 'ELP',
+    'centrais_eletricas_brasileiras': 'EBR',
+    'geopark': 'GPRK',
+    'vista_energy': 'VIST',
+    'transportadora_de_gas_del_sur': 'TGS',
+    'ultrapar_participacoes': 'UGP',
+    'central_puerto': 'CEPU',
+    'companhia_de_transmissao_de_energia_eletrica_paulista': 'CTPZY',
+    'eneva': 'ENVAF',
+    'grupo_energia_bogota': 'GGBR4.SA',
+    'aes_brasil': 'AESB3.SA',
+    'cosan': 'CSAN3.SA',
+    'engie_brasil': 'EGIE3.SA'
 }
 
 # Calcula las fechas de inicio y fin (últimos 30 días)
@@ -43,16 +60,19 @@ end_date_str = end_date.strftime('%Y-%m-%d')
 # Dataframe para almacenar todos los datos
 all_data = pd.DataFrame()
 
-# Ciclo para iterar sobre todas las empresas
+# Ciclo para iterar sobre todas las empresas de energía
 for company, ticker in tickers_dict.items():
-    df = download_historical_data(ticker, start_date_str, end_date_str)
-    df['Company'] = company
-    df['Ticker'] = ticker
-    all_data = pd.concat([all_data, df], ignore_index=True)
-    print(f'Se han descargado los datos de {company}')
+    try:
+        df = download_historical_data(ticker, start_date_str, end_date_str)
+        df['Company'] = company
+        df['Ticker'] = ticker
+        all_data = pd.concat([all_data, df], ignore_index=True)
+        print(f'Se han descargado los datos de {company}')
+    except Exception as e:
+        print(f'Error al descargar datos de {company}: {e}')
 
 # Guardar todos los datos en un solo archivo CSV en la carpeta datasets2
-output_file = 'datasets2/all_companies_stock_data.csv'
+output_file = 'datasets2/latam_energy_companies_stock_data.csv'
 all_data.to_csv(output_file, index=False)
 print(f'Se han guardado todos los datos en {output_file}')
 print(f'Datos actualizados hasta: {end_date_str}')
