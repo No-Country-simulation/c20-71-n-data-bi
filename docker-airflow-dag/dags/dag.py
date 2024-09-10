@@ -15,26 +15,6 @@ load_dotenv()  # Cargar las variables de entorno
 
 # Funciones de la pipeline
 
-
-# def download_all_data(**kwargs):
-#     datasets_path = os.path.join(os.path.dirname(__file__), 'datasets/')  # Ruta a la carpeta datasets
-#     tickers_dict = get_tickers()
-#     start_date = '2023-01-01'
-#     end_date = datetime.today().strftime('%Y-%m-%d')
-
-#     # Crear carpeta para datasets si no existe
-#     create_directory(datasets_path)
-
-#     # Descargar datos para cada ticker
-#     for key, ticker in tickers_dict.items():
-#         try:
-#             output_file = os.path.join(datasets_path, f'{key}_historical_data.csv')
-#             download_historical_data(ticker, start_date, end_date, output_file)
-#             logging.info(f'Dataset descargado y guardado para: {key}')
-#         except Exception as e:
-#             logging.error(f'Error descargando datos para {key}: {str(e)}')
-#             raise  # Re-lanzar la excepción para que Airflow registre el fallo
-
 def download_all_data(**kwargs):
     # Ruta absoluta a la carpeta datasets dentro de dags
     dags_folder = os.path.dirname(os.path.abspath(__file__))
@@ -87,6 +67,24 @@ def extract_data_task(**kwargs):
             all_data.append(data)
     return all_data
 
+# def load_data_task(**kwargs):
+#     # Obtener la ruta absoluta de la carpeta dags
+#     dags_folder = os.path.dirname(os.path.abspath(__file__))
+#     datasets_path = os.path.join(dags_folder, 'datasets')
+    
+#     logging.info(f"Intentando acceder a la carpeta: {datasets_path}")
+    
+#     if not os.path.exists(datasets_path):
+#         logging.error(f"La carpeta {datasets_path} no existe.")
+#         raise FileNotFoundError(f"La carpeta {datasets_path} no existe.")
+    
+#     for file_name in os.listdir(datasets_path):
+#         if file_name.endswith('.csv'):
+#             file_path = os.path.join(datasets_path, file_name)
+#             logging.info(f"Cargando archivo: {file_path}")
+#             load_data_to_db(file_path)
+#             logging.info(f'Datos cargados en la tabla para el archivo {file_name}')
+
 def load_data_task(**kwargs):
     # Obtener la ruta absoluta de la carpeta dags
     dags_folder = os.path.dirname(os.path.abspath(__file__))
@@ -101,10 +99,14 @@ def load_data_task(**kwargs):
     for file_name in os.listdir(datasets_path):
         if file_name.endswith('.csv'):
             file_path = os.path.join(datasets_path, file_name)
-            logging.info(f"Cargando archivo: {file_path}")
-            load_data_to_db(file_path)
-            logging.info(f'Datos cargados en la tabla para el archivo {file_name}')
-
+            table_name = file_name.replace('.csv', '')  # Usa el nombre completo del archivo sin la extensión .csv
+            logging.info(f"Cargando archivo: {file_path} en la tabla: {table_name}")
+            try:
+                load_data_to_db(file_path, table_name)  # Carga los datos en la tabla
+            except Exception as e:
+                logging.error(f"Error al cargar los datos en la base de datos: {e}")
+            else:
+                logging.info(f'Datos cargados en la tabla para el archivo {file_name}')
 
 # Configuración del logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
