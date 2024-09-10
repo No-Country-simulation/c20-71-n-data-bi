@@ -25,28 +25,31 @@ def download_historical_data(ticker, start_date, end_date):
     
     return df
 
-# Diccionario actualizado de nombres de empresas de energía con su ticker
+# Diccionario de nombres de bancos con su ticker
 tickers_dict = {
-    'petrobras': 'PBR',
-    'ecopetrol': 'EC',
-    'eletrobras': 'EBR',
-    'cemig': 'CIG',
-    'pampa_energia': 'PAM',
-    'ypf': 'YPF',
-    'enel_chile': 'ENIC',
-    'companhia_paranaense_de_energia': 'ELP',
-    'centrais_eletricas_brasileiras': 'EBR',
-    'geopark': 'GPRK',
-    'vista_energy': 'VIST',
-    'transportadora_de_gas_del_sur': 'TGS',
-    'ultrapar_participacoes': 'UGP',
-    'central_puerto': 'CEPU',
-    'companhia_de_transmissao_de_energia_eletrica_paulista': 'CTPZY',
-    'eneva': 'ENVAF',
-    'grupo_energia_bogota': 'GGBR4.SA',
-    'aes_brasil': 'AESB3.SA',
-    'cosan': 'CSAN3.SA',
-    'engie_brasil': 'EGIE3.SA'
+    'banco_santander_brasil': 'BSBR',
+    'banco_de_chile': 'BCH',
+    'credicorp': 'BAP',
+    'grupo_financiero_galicia': 'GGAL',
+    'banco_macro': 'BMA',
+    'bbva_argentina': 'BBAR',
+    'grupo_aval': 'AVAL',
+    'bancolombia': 'CIB',
+    'grupo_financiero_banorte': 'GBOOY',
+    'banco_inter': 'INTR',
+    'xp_inc': 'XP',
+    'nu_holdings': 'NU',
+    'banco_santander_chile': 'BSAC',
+    'grupo_supervielle': 'SUPV',
+    'banco_latinoamericano_comercio_exterior': 'BLX',
+    'stone_co': 'STNE',
+    'pagseguro_digital': 'PAGS',
+    'mercadolibre': 'MELI',
+    'banco_de_bogota': 'BOGOTA.CL',
+    'banco_hipotecario': 'BHIP.BA',
+    'banco_de_valores': 'VALO.BA',
+    'banco_patagonia': 'BPAT.BA',
+    'banco_santander_rio': 'BRIO.BA'
 }
 
 # Calcula las fechas de inicio y fin (últimos 30 días)
@@ -60,19 +63,25 @@ end_date_str = end_date.strftime('%Y-%m-%d')
 # Dataframe para almacenar todos los datos
 all_data = pd.DataFrame()
 
-# Ciclo para iterar sobre todas las empresas de energía
-for company, ticker in tickers_dict.items():
+# Ciclo para iterar sobre todos los bancos
+for bank, ticker in tickers_dict.items():
     try:
         df = download_historical_data(ticker, start_date_str, end_date_str)
-        df['Company'] = company
-        df['Ticker'] = ticker
-        all_data = pd.concat([all_data, df], ignore_index=True)
-        print(f'Se han descargado los datos de {company}')
+        if df is not None and not df.empty:
+            df['Bank'] = bank
+            df['Ticker'] = ticker
+            all_data = pd.concat([all_data, df], ignore_index=True)
+            print(f'Se han descargado los datos de {bank} ({ticker})')
+        else:
+            print(f'No se encontraron datos para {bank} ({ticker})')
     except Exception as e:
-        print(f'Error al descargar datos de {company}: {e}')
+        print(f'Error al descargar datos de {bank} ({ticker}): {e}')
 
 # Guardar todos los datos en un solo archivo CSV en la carpeta datasets2
-output_file = 'datasets2/latam_energy_companies_stock_data.csv'
-all_data.to_csv(output_file, index=False)
-print(f'Se han guardado todos los datos en {output_file}')
-print(f'Datos actualizados hasta: {end_date_str}')
+if not all_data.empty:
+    output_file = 'datasets2/latam_banks_stock_data.csv'
+    all_data.to_csv(output_file, index=False)
+    print(f'Se han guardado todos los datos en {output_file}')
+    print(f'Datos actualizados hasta: {end_date_str}')
+else:
+    print('No se pudieron obtener datos para ningún banco.')
