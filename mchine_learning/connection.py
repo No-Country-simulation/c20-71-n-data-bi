@@ -10,7 +10,7 @@ def connect_to_redshift(config):
             port=config["PORT"],
             dbname=config["DBNAME"]
         )
-        print("Connected to Redshift successfully!")
+        print("Conexión exitosa")
         return conn
     except Exception as e:
         print(f"No fue posible conectar. Error: {e}")
