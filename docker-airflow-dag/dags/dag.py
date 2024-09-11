@@ -42,15 +42,6 @@ def validate_credentials_task(**kwargs):
     if not validate_credentials():
         raise ValueError("Las credenciales no están configuradas correctamente.")
 
-# def extract_data_task(**kwargs):
-#     directory = kwargs['file_path']
-#     all_data = []
-#     for file_name in os.listdir(directory):
-#         if file_name.endswith('.csv'):
-#             file_path = os.path.join(directory, file_name)
-#             data = extract_data(file_path)
-#             all_data.append(data)
-#     return all_data
 
 def extract_data_task(**kwargs):
     dags_folder = os.path.dirname(os.path.abspath(__file__))
@@ -67,23 +58,6 @@ def extract_data_task(**kwargs):
             all_data.append(data)
     return all_data
 
-# def load_data_task(**kwargs):
-#     # Obtener la ruta absoluta de la carpeta dags
-#     dags_folder = os.path.dirname(os.path.abspath(__file__))
-#     datasets_path = os.path.join(dags_folder, 'datasets')
-    
-#     logging.info(f"Intentando acceder a la carpeta: {datasets_path}")
-    
-#     if not os.path.exists(datasets_path):
-#         logging.error(f"La carpeta {datasets_path} no existe.")
-#         raise FileNotFoundError(f"La carpeta {datasets_path} no existe.")
-    
-#     for file_name in os.listdir(datasets_path):
-#         if file_name.endswith('.csv'):
-#             file_path = os.path.join(datasets_path, file_name)
-#             logging.info(f"Cargando archivo: {file_path}")
-#             load_data_to_db(file_path)
-#             logging.info(f'Datos cargados en la tabla para el archivo {file_name}')
 
 def load_data_task(**kwargs):
     # Obtener la ruta absoluta de la carpeta dags
