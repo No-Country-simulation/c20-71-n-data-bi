@@ -38,8 +38,8 @@ tickers_dict = {
     'enel_chile': 'ENIC',  # Chile - Generación y distribución de energía
     'cosan': 'CSAN',  # Brasil - Energía y logística
     'ultrapar': 'UGP',  # Brasil - Distribución de combustibles
-    'companhia_siderurgica_nacional': 'SID',  # Brasil - Acero y minería (con componente energético)
-    'vale': 'VALE',  # Brasil - Minería (importante en el sector energético)
+    'companhia_siderurgica_nacional': 'SID',  # Brasil - Acero, minería y energía
+    'vale': 'VALE',  # Brasil - Minería y energía
     'braskem': 'BAK',  # Brasil - Petroquímica
     'centrais_eletricas_brasileiras': 'EBR',  # Brasil - Generación y transmisión de energía
     'companhia_paranaense_de_energia': 'ELP',  # Brasil - Generación y distribución de energía
@@ -56,7 +56,7 @@ tickers_dict = {
 }
 
 # Fecha de inicio fija
-start_date = '2023-01-01'
+start_date = '2022-01-01'
 
 # Fecha de fin se actualiza a la fecha actual
 end_date = datetime.date.today().strftime('%Y-%m-%d')
