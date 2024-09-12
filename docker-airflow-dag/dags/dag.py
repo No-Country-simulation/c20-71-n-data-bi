@@ -24,7 +24,7 @@ def download_all_data(**kwargs):
     create_directory(datasets_path)
     
     tickers_dict = get_tickers()
-    start_date = '2023-01-01'
+    start_date = '2022-01-01'
     end_date = datetime.today().strftime('%Y-%m-%d')
 
     # Descargar datos para cada ticker
