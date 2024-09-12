@@ -9,14 +9,14 @@ from preprocessing import preprocess_data
 from prepare_data_for_ml import prepare_data
 from model import create_and_train_model, evaluate_model
 
-def fetch_data():
+def fetch_data(company_name):
     connection = connect_to_redshift(REDSHIFT_CONFIG)
     if not connection:
         return None
     
     try:
-        query = """
-        SELECT * FROM eas_andes_historical_data
+        query = f"""
+        SELECT * FROM {company_name}_historical_data
         """
         
         df = fetch_data_from_redshift(connection, query)
@@ -27,8 +27,8 @@ def fetch_data():
         connection.close()
         print('Conexión finalizada')
         
-def extraction_and_preprocess():
-    df = fetch_data()
+def extraction_and_preprocess(company_name):
+    df = fetch_data(company_name)
     if df is None:
         print('Fallo la extraccion de datos')
         return
@@ -40,9 +40,9 @@ def extraction_and_preprocess():
     
     return X_train, X_test, y_train, y_test
     
-def model():
+def model(company_name):
     
-    X_train, X_test, y_train, y_test = extraction_and_preprocess()
+    X_train, X_test, y_train, y_test = extraction_and_preprocess(company_name)
     
     model_rfc = create_and_train_model(X_train, y_train)
     
@@ -54,6 +54,7 @@ def model():
     
     return model_rfc
 
-model_rfc = model()
+company_name = 'ypf'
+model_rfc = model(company_name)
 
-joblib.dump(model, f'machine_learning.joblib')
+joblib.dump(model_rfc, f'machine_learning/model/model_rfc_{company_name}.joblib')
