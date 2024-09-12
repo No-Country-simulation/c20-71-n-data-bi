@@ -1,6 +1,7 @@
 import pandas as pd
 import os, sys
 sys.path.append(os.getcwd)
+import joblib
 from connection import connect_to_redshift
 from data_extraction import fetch_data_from_redshift
 from config import REDSHIFT_CONFIG
@@ -51,4 +52,8 @@ def model():
     print('Report:', report)
     print('Auc_ROC:', auc_roc)
     
-model()
+    return model_rfc
+
+model_rfc = model()
+
+joblib.dump(model, f'machine_learning.joblib')
