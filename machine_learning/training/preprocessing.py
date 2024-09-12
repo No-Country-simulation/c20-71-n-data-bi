@@ -8,7 +8,7 @@ def preprocess_data(df):
     
     df['target'] = (df['tomorrow'] > df['close']).astype(int)
     
-    df = df.drop(['date', 'dividends', 'stock_splits', 'tomorrow'], axis=1)
+    df = df.drop(['date', 'dividends', 'stock_splits', 'tomorrow'], axis=1, errors='ignore')
     
     scaler = StandardScaler()
     
