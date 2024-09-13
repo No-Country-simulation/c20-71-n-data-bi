@@ -11,5 +11,4 @@ def extract_data(file_path):
     except Exception as e:
         raise Exception(f"Error al leer el archivo {file_path}: {e}")
 
-# Ejemplo
-# data = extract_data('datasets/bbva_historical_data.csv')
+

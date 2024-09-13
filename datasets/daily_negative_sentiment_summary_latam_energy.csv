@@ -1,0 +1,68 @@
+Date,Company,Ticker,Avg_Sentiment,Min_Sentiment,Max_Sentiment,News_Count,Sample_Title
+2024-08-12,cemig,CIG,-0.2355,-0.2355,-0.2355,1,UFC 305 Roundtable: Who has more at stake between Dricus du Plessis and Israel Adesanya?
+2024-08-12,geb,GEB.CL,-0.7845,-0.7845,-0.7845,1,Red Alert: Trump Campaign Hacked
+2024-08-12,ypf,YPF,-0.2411,-0.2411,-0.2411,1,Earnings call: Central Puerto reports mixed Q2 2024 results amid new projects
+2024-08-15,vista_energy,VIST,-0.7184,-0.7184,-0.7184,1,Effect of low-intensity pulsed ultrasound on postoperative rehabilitation of rotator cuff tears: Protocol for a systematic review and meta-analysis
+2024-08-16,ypf,YPF,-0.5859,-0.5859,-0.5859,1,Conflict Is Brewing in Libya Once Again
+2024-08-17,braskem,BAK,-0.5994,-0.5994,-0.5994,1,Christopher Cantwell's Kid Maroon in Vault's November 2024 Solicits
+2024-08-20,vista_energy,VIST,-0.3612,-0.3612,-0.3612,1,"JPMorgan sees upside in Vista Oil & Gas stock, strategic focus on Argentinian shale"
+2024-08-22,cemig,CIG,-0.743,-0.743,-0.743,1,Judge dismisses lawsuit accusing X of discrimination over return-to-work policy
+2024-08-22,vista_energy,VIST,-0.6808,-0.6808,-0.6808,1,"A minimum data set—Core outcome set, core data elements, and core measurement set—For degenerative cervical myelopathy research (AO Spine RECODE DCM): A consensus study"
+2024-08-23,cemig,CIG,-0.2292,-0.2292,-0.2292,1,"Stream It Or Skip It: ‘Stress Positions’ on Hulu, Theda Hammel’s Highly Unconventional LGBTQ+ COVID Satire Starring John Early"
+2024-08-24,cemig,CIG,-0.296,-0.296,-0.296,1,No vaping in the boys’ room: E-cig detectors would be required in NYC schools under bill
+2024-08-24,raizen,RAIZ4.SA,-0.7424,-0.9274,-0.5574,2,"Wildfires affecting 30 cities in Brazil's Sao Paulo state, leave 2 dead"
+2024-08-26,cemig,CIG,-0.1027,-0.1027,-0.1027,1,"Lady Gaga's ""Die With A Smile"" Dance"
+2024-08-26,raizen,RAIZ4.SA,-0.8695666666666666,-0.9694,-0.6815,3,"Fires in Brazil cane fields controlled, damage to sugar crop being assessed"
+2024-08-27,braskem,BAK,-0.9393,-0.9393,-0.9393,1,Pogust Goodhead Issues Statement as BHP Fails to Adequately Address Brazilian Dam Disaster in Year-End Earnings Results
+2024-08-27,petrobras,PBR,-0.2179,-0.34,-0.0958,2,Lula’s Push for Natural Gas Raises Intervention Fears in Brazil
+2024-08-27,raizen,RAIZ4.SA,-0.8807,-0.8807,-0.8807,1,Four arson suspects arrested for setting fires in Brazil farmland: Police
+2024-08-28,vista_energy,VIST,-0.9327666666666667,-0.9806,-0.891,3,'Sickening': Trump post spurs outrage — and new accusations that he broke the law
+2024-08-29,braskem,BAK,-0.6124,-0.6124,-0.6124,1,China Reminds South Korea That Time Isn’t On Its Side
+2024-08-29,geb,GEB.CL,-0.3182,-0.3182,-0.3182,1,Skeptical Science New Research for Week #35 2024
+2024-08-30,braskem,BAK,-0.8519,-0.8519,-0.8519,1,RVFV virulence factor NSs triggers the mitochondrial MCL-1-BAK axis to activate pathogenic NLRP3 pyroptosis
+2024-08-30,cemig,CIG,-0.8063,-0.8063,-0.8063,1,The best memes about Keir Starmer’s proposed smoking ban
+2024-09-01,companhia_siderurgica_nacional,SID,-0.6669,-0.875,-0.4588,2,Police nab two for drug trafficking in A’Ibom
+2024-09-01,vale,VALE,-0.3818,-0.3818,-0.3818,1,Gavin and Stacey: Ruth Jones seen in Barry Island before filming
+2024-09-02,aes_andes,AES,-0.5001333333333333,-0.7424,-0.0772,3,IntelliNet 2.0 Remote Root
+2024-09-02,cemig,CIG,-0.8591,-0.8591,-0.8591,1,Putin warns students about vapes
+2024-09-02,companhia_siderurgica_nacional,SID,-0.76515,-0.836,-0.6943,2,"Gabby Eigenmann, inalala si Mark Gil sa death anniversary nito"
+2024-09-02,petrobras,PBR,-0.9666,-0.9666,-0.9666,1,"Scarcity: NNPC constitutes economic danger, sell it"
+2024-09-02,vale,VALE,-0.6085666666666667,-0.9432,-0.2144,6,Bruce Highway partially reopens after ammonium nitrate explosion
+2024-09-03,aes_andes,AES,-0.3475,-0.9652,-0.0516,4,"Shoot Apple ProRes straight from iPhone 15 to Lexar’s new 4TB 2,000MB/s ARMOR 700 Portable SSD at the $299 low"
+2024-09-03,braskem,BAK,-0.9371,-0.9371,-0.9371,1,Norovirus-mediated translation repression promotes macrophage cell death
+2024-09-03,companhia_siderurgica_nacional,SID,-0.9881,-0.9881,-0.9881,1,"Sid Wilson's First Show After Burns Was Painful, Risky ... And Totally Worth It!"
+2024-09-03,vale,VALE,-0.4634666666666667,-0.6369,-0.1531,3,"OpenAI Is Reportedly Working On Bringing 8 New Voices For ChatGPT, Aiming To Minimize The Gap Between A Human And A Chatbot"
+2024-09-04,aes_andes,AES,-0.7145,-0.8166,-0.6124,2,hoardy-adb added to PyPI
+2024-09-04,pampa_energia,PAM,-0.721375,-0.9552,-0.126,4,"First Look At ‘Barney’s World,’ Set To Premiere On Max Next Month"
+2024-09-04,petrobras,PBR,-0.7424999999999999,-0.8481,-0.6369,2,"Global borrowing blitz led by blue chips selling $43 bn in bonds, loans"
+2024-09-04,vale,VALE,-0.4336,-0.7783,-0.0821,3,George R.R. Martin Offers A Grim Warning About ‘House Of The Dragon’ And ‘Toxic’ Changes Coming To Seasons 3 And 4
+2024-09-05,aes_andes,AES,-0.7376999999999999,-0.918,-0.4939,6,Linux Ransomware Threats: How Attackers Target Linux Systems
+2024-09-05,braskem,BAK,-0.9657,-0.9657,-0.9657,1,Centrosome amplification primes ovarian cancer cells for apoptosis and potentiates the response to chemotherapy
+2024-09-05,cemig,CIG,-0.932,-0.932,-0.932,1,Teenage E-Cigarette Use Drops to a 10-Year Low
+2024-09-05,companhia_siderurgica_nacional,SID,-0.4428,-0.6124,-0.2732,2,"Vulnerable Senate Dem May Be In Serious Trouble In Montana, New Poll Shows"
+2024-09-05,ecopetrol,EC,-0.68165,-0.9287,-0.296,6,"Colombia Faces Food, Fuel Shortages as Truckers Block Roads"
+2024-09-05,enel_chile,ENIC,-0.5994,-0.5994,-0.5994,1,Laboratory evidence of the nonresonant streaming instability in the formation of quasiparallel collisionless shocks at high Alfvénic Mach number
+2024-09-05,pampa_energia,PAM,-0.4717333333333334,-0.9565,-0.1027,9,"Borno residents dump cars for horses, trekking over high fuel price"
+2024-09-05,petrobras,PBR,-0.3182,-0.3182,-0.3182,1,"Hunting in Desperate Times – Part 5, by Tunnel Rabbit"
+2024-09-05,vale,VALE,-0.47809999999999997,-0.936,-0.2023,3,Man shot dead in Maida Vale
+2024-09-06,aes_andes,AES,-0.5994,-0.5994,-0.5994,1,Escondido lithium battery fire continues to burn as county mulls over moratorium
+2024-09-06,braskem,BAK,-0.8225,-0.8225,-0.8225,1,Braskem SA faces $5 billion lawsuit over damages
+2024-09-06,cemig,CIG,-0.802,-0.802,-0.802,1,29 Hotel Employees Share Their Most Unforgettable Moments With Guests
+2024-09-06,companhia_siderurgica_nacional,SID,-0.98,-0.98,-0.98,1,Biosafety Now: Releasing The Virus Was Mass Murder. Intentionally Spreading It Was Forgivable.
+2024-09-06,ecopetrol,EC,-0.6912166666666666,-0.9764,-0.296,12,Competition watchdog accuses Google of abusing ad dominance
+2024-09-06,pampa_energia,PAM,-0.43108,-0.656,-0.2023,5,FNC's Perino to Harris Spox: Kamala Has Done One Interview in 47 Days
+2024-09-06,vale,VALE,-0.392775,-0.5423,-0.1531,4,Professor Pledges to Remove Name from Brauer Museum if Valparaiso University Moves Forward with Deaccession
+2024-09-07,aes_andes,AES,-0.9438,-0.9632,-0.9244,2,Wired Connection is very slow in Ubuntu 24.04
+2024-09-07,companhia_siderurgica_nacional,SID,-0.6166333333333333,-0.9201,-0.1027,3,Caleb Williams has Chicago praying they found their own Patrick Mahomes
+2024-09-07,ecopetrol,EC,-0.8972,-0.9645,-0.8299,2,Was it one big conspiracy?
+2024-09-07,pampa_energia,PAM,-0.5537,-0.6486,-0.4588,2,Ask Not: The Kennedys and the Women They Destroyed by Maureen Callahan – A pulpy approach that provides facile answers
+2024-09-07,vale,VALE,-0.5457,-0.7096,-0.3818,2,IISF offers momentum for sustainable management of critical minerals
+2024-09-08,companhia_siderurgica_nacional,SID,-0.0516,-0.0516,-0.0516,1,Lenovo Yoga Book 9i review: Gorgeous inside and out
+2024-09-08,pampa_energia,PAM,-0.6375444444444445,-0.891,-0.2815,9,How did gun crime inspire hit BBC drama Sherwood?
+2024-09-08,vale,VALE,-0.98,-0.98,-0.98,1,'Very dangerous' British prisoner among five inmates to escape from high-security jail in Portugal
+2024-09-09,aes_andes,AES,-0.5674666666666667,-0.7783,-0.3818,3,"Vulnerability Summary for the Week of September 2, 2024"
+2024-09-09,companhia_siderurgica_nacional,SID,-0.8271,-0.8271,-0.8271,1,"IMUNON's Ovarian Cancer R&D Day to Feature Presentations from IMNN-001 Clinical Study Investigators, Immunology and Biostatistics Experts, and Executive Management"
+2024-09-09,ecopetrol,EC,-0.79948,-0.9774,-0.4215,5,"Vulnerability Summary for the Week of September 2, 2024"
+2024-09-09,light,LGSXY,-0.7020941176470588,-0.9747,-0.0018,34,Justice for Ayşenur Ezgi Eygi
+2024-09-09,pampa_energia,PAM,-0.6751,-0.6751,-0.6751,1,Emily Blunt and John Krasinski Took Their Daughters to the US Open
+2024-09-09,vale,VALE,-0.89685,-0.9584,-0.8353,2,Marvel vs. Capcom Fighting Collection: Arcade Classics é um tesouro! Análise / Review
