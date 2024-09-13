@@ -105,7 +105,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Definir el DAG
 default_args = {
     'owner': 'C20-71-N-DATA-BI',
-    'start_date': datetime(2023, 1, 1),
+    'start_date': datetime(2022, 1, 1),
     'retries': 1,
 }
 
