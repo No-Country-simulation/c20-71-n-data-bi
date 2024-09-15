@@ -14,6 +14,3 @@ def load_data(file_path):
     df.sort_index(inplace=True)
     
     return df
-
-df = load_data('datasets_modelo/3r_petroleum_model_data.csv')
-print(df.head(5))
