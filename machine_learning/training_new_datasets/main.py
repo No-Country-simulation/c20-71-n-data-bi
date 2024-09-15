@@ -1,60 +1,35 @@
-import pandas as pd
 import os, sys
 sys.path.append(os.getcwd)
-import joblib
-from connection import connect_to_redshift
-from data_extraction import fetch_data_from_redshift
-from training.config import REDSHIFT_CONFIG
-#from preprocessing import preprocess_data
-#from prepare_data_for_ml import prepare_data
-#from model import create_and_train_model, evaluate_model
+import numpy as np
+from data_loader import load_data
+from feature_engineering import engineer_features
+from model_training import prepare_data, train_and_evaluate, perform_cv, predict_next_day, get_feature_importance
 
-def fetch_data(company_name):
-    connection = connect_to_redshift(REDSHIFT_CONFIG)
-    if not connection:
-        return None
-    
-    try:
-        query = f"""
-        SELECT * FROM {company_name}_historical_data
-        """
-        
-        df = fetch_data_from_redshift(connection, query)
-        
-        return df
-        
-    finally:
-        connection.close()
-        print('Conexión finalizada')
-        
-def extraction_and_preprocess(company_name):
-    df = fetch_data(company_name)
-    if df is None:
-        print('Fallo la extraccion de datos')
-        return
-    
-    # df_preprocessed = preprocess_data(df)
-    # print(df_preprocessed.head(5))
-    
-    # X_train, X_test, y_train, y_test = prepare_data(df_preprocessed, 'target')
-    
-    return df
-    
-# def model(company_name):
-    
-#     X_train, X_test, y_train, y_test = extraction_and_preprocess(company_name)
-    
-#     model_rfc = create_and_train_model(X_train, y_train)
-    
-#     accuracy, report, auc_roc = evaluate_model(model_rfc, X_test, y_test)
-    
-#     print('Accuracy:', accuracy)
-#     print('Report:', report)
-#     print('Auc_ROC:', auc_roc)
-    
-#     return model_rfc
+def main():
+    # Carga los datos y los preprocesa
+    df = load_data('datasets_modelo/3r_petroleum_model_data.csv')
+    df = engineer_features(df)
 
-# company_name = 'ypf'
-# model_rfc = model(company_name)
+    # Preparación para el entrenamiento del modelo
+    X_train, X_test, y_train, y_test = prepare_data(df)
 
-joblib.dump(model_rfc, f'machine_learning/model/model_rfc_{company_name}.joblib')
+    # Entrena y evalua el modelo
+    model, scaler, rmse, r2 = train_and_evaluate(X_train, X_test, y_train, y_test)
+    print(f'Error cuadrático medio (RMSE): {rmse}')
+    print(f'Valor R2: {r2}')
+
+    # Realiza la validación cruzada
+    cv_scores = perform_cv(X_train, y_train)
+    print(f'Valores R2 de la validación cruzada: {cv_scores}')
+    print(f'Media de los valores R2 {np.mean(cv_scores)}')
+
+    # Predicción d valor del día siguiente
+    next_day_prediction = predict_next_day(model, scaler, X_test)
+    print(f'Predicted return for the next day: {next_day_prediction}')
+
+    # Se obtiene las características más importantes durante la evaluación
+    feature_importance = get_feature_importance(model, X_test)
+    print(feature_importance.sort_values('importance', ascending=False).head(10))
+
+if __name__ == "__main__":
+    main()
