@@ -29,7 +29,7 @@ def main():
 
     # Se obtiene las características más importantes durante la evaluación
     feature_importance = get_feature_importance(model, X_test)
-    print(feature_importance.sort_values('importance', ascending=False).head(10))
+    print(feature_importance.sort_values('importance', ascending=False))
 
 if __name__ == "__main__":
     main()
