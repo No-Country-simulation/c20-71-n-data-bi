@@ -41,7 +41,7 @@ def tune_hyperparameters(X_train, y_train):
     random_search.fit(X_train, y_train)
 
     print("Best parameters found: ", random_search.best_params_)
-    print("Best score: ", -random_search.best_score_)
+    print("Best score: ", random_search.best_score_)
 
     return random_search.best_estimator_
 
