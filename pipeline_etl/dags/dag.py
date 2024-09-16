@@ -7,6 +7,7 @@ import os  # Importar el módulo os
 # Importar funciones desde los módulos
 from modules.data_from_webScrapping import create_directory, download_historical_data, get_tickers
 from modules.extract_data import extract_data
+from modules.transform_data import transform_all_data
 from modules.load_data import load_data_to_db
 from modules.validate_credentials import validate_credentials
 from dotenv import load_dotenv
@@ -27,22 +28,15 @@ def download_all_data(**kwargs):
     start_date = '2022-01-01'
     end_date = datetime.today().strftime('%Y-%m-%d')
 
-    download_status = {}
-
     # Descargar datos para cada ticker
     for key, ticker in tickers_dict.items():
         try:
             output_file = os.path.join(datasets_path, f'{key}_historical_data.csv')
             download_historical_data(ticker, start_date, end_date, output_file)
             logging.info(f'Dataset descargado y guardado para: {key}')
-            download_status[key] = 'success'
         except Exception as e:
             logging.error(f'Error descargando datos para {key}: {str(e)}')
-            download_status[key] = f'error: {str(e)}'
             raise  # Re-lanzar la excepción para que Airflow registre el fallo
-
-    # Guardar el estado de la descarga en XCom
-    kwargs['ti'].xcom_push(key='download_status', value=download_status)
 
 
 def validate_credentials_task(**kwargs):
@@ -63,18 +57,16 @@ def extract_data_task(**kwargs):
             file_path = os.path.join(directory, file_name)
             data = extract_data(file_path)
             all_data.append(data)
-    
-    # Retornar los datos extraídos para usarlos en la siguiente tarea
     return all_data
 
 
-def load_data_task(**kwargs):
-    # Obtener los datos extraídos del XCom
-    extracted_data = kwargs['ti'].xcom_pull(task_ids='extract_data')
+def transform_data_task(**kwargs):
+    directory = kwargs['ti'].xcom_pull(task_ids='extract_data')  # Obtener el directorio desde XCom
+    transform_all_data(directory)  # Aplicar la transformación a todos los archivos CSV
+    return directory  # Retornar el directorio para pasarlo a la siguiente tarea
 
-    if not extracted_data:
-        raise ValueError("No se encontraron datos extraídos para cargar.")
-    
+
+def load_data_task(**kwargs):
     # Obtener la ruta absoluta de la carpeta dags
     dags_folder = os.path.dirname(os.path.abspath(__file__))
     datasets_path = os.path.join(dags_folder, 'datasets')
@@ -94,10 +86,8 @@ def load_data_task(**kwargs):
                 load_data_to_db(file_path, table_name)  # Carga los datos en la tabla
             except Exception as e:
                 logging.error(f"Error al cargar los datos en la base de datos: {e}")
-                raise  # Re-lanzar la excepción para que Airflow registre el fallo
             else:
                 logging.info(f'Datos cargados en la tabla para el archivo {file_name}')
-
 
 # Configuración del logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -127,7 +117,6 @@ validate_credentials_op = PythonOperator(
 download_data_op = PythonOperator(
     task_id='download_data',
     python_callable=download_all_data,  # Función para descargar datos
-    provide_context=True,  # Habilitar XCom
     dag=dag,
 )
 
@@ -135,16 +124,22 @@ extract_data_op = PythonOperator(
     task_id='extract_data',
     python_callable=extract_data_task,
     op_kwargs={'file_path': 'datasets'},  # Directorio de archivos CSV
-    provide_context=True,  # Habilitar XCom
+    dag=dag,
+)
+
+transform_data_op = PythonOperator(
+    task_id='transform_data',
+    python_callable=transform_data_task,
+    provide_context=True,  # Para habilitar el uso de XCom
     dag=dag,
 )
 
 load_data_op = PythonOperator(
     task_id='load_data',
     python_callable=load_data_task,
-    provide_context=True,  # Habilitar XCom
     dag=dag,
 )
 
 # Definir la secuencia de tareas
-validate_credentials_op >> download_data_op >> extract_data_op >> load_data_op
+validate_credentials_op >> download_data_op >> extract_data_op >> transform_data_op >> load_data_op
+
