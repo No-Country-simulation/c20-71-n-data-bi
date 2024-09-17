@@ -44,6 +44,21 @@ def validate_credentials_task(**kwargs):
         raise ValueError("Las credenciales no están configuradas correctamente.")
 
 
+# def extract_data_task(**kwargs):
+#     dags_folder = os.path.dirname(os.path.abspath(__file__))
+#     directory = os.path.join(dags_folder, kwargs['file_path'])
+    
+#     if not os.path.exists(directory):
+#         raise FileNotFoundError(f"La carpeta {directory} no existe.")
+    
+#     all_data = []
+#     for file_name in os.listdir(directory):
+#         if file_name.endswith('.csv'):
+#             file_path = os.path.join(directory, file_name)
+#             data = extract_data(file_path)
+#             all_data.append(data)
+#     return all_data
+
 def extract_data_task(**kwargs):
     dags_folder = os.path.dirname(os.path.abspath(__file__))
     directory = os.path.join(dags_folder, kwargs['file_path'])
@@ -57,11 +72,21 @@ def extract_data_task(**kwargs):
             file_path = os.path.join(directory, file_name)
             data = extract_data(file_path)
             all_data.append(data)
-    return all_data
+    return directory  # Asegúrate de devolver el directorio
 
+
+# def transform_data_task(**kwargs):
+#     directory = kwargs['ti'].xcom_pull(task_ids='extract_data')  # Obtener el directorio desde XCom
+#     transform_all_data(directory)  # Aplicar la transformación a todos los archivos CSV
+#     return directory  # Retornar el directorio para pasarlo a la siguiente tarea
 
 def transform_data_task(**kwargs):
     directory = kwargs['ti'].xcom_pull(task_ids='extract_data')  # Obtener el directorio desde XCom
+    
+    # Asegúrate de que el resultado de XCom sea una cadena (directorio), no una lista
+    if isinstance(directory, list):
+        directory = directory[0]  # Si es una lista, obtén el primer elemento
+    
     transform_all_data(directory)  # Aplicar la transformación a todos los archivos CSV
     return directory  # Retornar el directorio para pasarlo a la siguiente tarea
 
