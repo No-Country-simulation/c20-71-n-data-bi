@@ -1,4 +1,46 @@
-# Proyecto de Análisis Financiero y Recomendación de Inversiones de Empresas Energéticas
+<p align="center">
+  <img width="" height="400" src="images/portada.png" alt="Proyecto">
+</p>
+
+## Estructura del Equipo 	
+<p align="center">
+  <img width="" height="400" src="images/team.png" alt="Team">
+</p>
+
+- **José Paternina Orozco** - Team Leader
+
+    [Linkedin](https://www.linkedin.com/in/josepaterninaorozco/?originalSubdomain=co)
+
+    [Gmail](mailto:juanantonio.r.m94@gmail.com)
+
+- **Juan Cortez Zamar** - Project Manager & Data Engineer
+
+    [Linkedin](https://www.linkedin.com/in/juanzamar)
+
+    [Github](https://github.com/juancorzamar93)
+
+    [Gmail](mailto:juancorzamar@gmail.com)
+- **Nicolas Salamanca** - Data Engineer
+  
+  [Linkedin](https://www.example.com/image.jpg)
+
+  [Github](https://github.com/NICOLAS-ANTONIO)
+
+  [Gmail](mailto:nicolas.antonio.sm@outlook.com)
+
+- **Juan Antonio Reyes Mendoza** - Data Scientist
+ 
+  [Linkedin](https://www.linkedin.com/in/juan-antonio-reyes-mendoza/)
+
+  [Github](https://github.com/JuanAntonioRe)
+
+  [Gmail](mailto:juanantonio.r.m94@gmail.com)
+  
+- **Laura Minaya** - Business Intelligence Analyst
+  
+  [Linkedin](https://www.linkedin.com/in/laura-m-3a878b212/)
+
+  [Gmail](mailto:lauminagui@gmail.com)
 
 ### Este proyecto tiene como objetivo proporcionar una solución integral para los analistas e inversionistas especializados en el sector energético, facilitando el acceso a datos actualizados de cotizaciones diarias de empresas que cotizan en bolsas internacionales. Mediante la integración de tecnologías avanzadas, se automatiza la extracción, almacenamiento y análisis de estos datos.
 
@@ -70,41 +112,7 @@ Los datos extraídos de Yahoo Finance para cada empresa energética incluyen las
 
 Para la gestión del proyecto, implementamos la metodología Scrum, organizando las fases del proyecto en cuatro sprints semanales. Inicialmente utilizamos Trello como herramienta de gestión, pero luego migramos a Jira para un seguimiento más detallado de las tareas.
 
-## Estructura del Equipo 	
-- **José Paternina Orozco** - Team Leader
 
-    [Linkedin](https://www.linkedin.com/in/josepaterninaorozco/?originalSubdomain=co)
-
-    	:incoming_envelope: [Gmail](mailto:juanantonio.r.m94@gmail.com)
-
-- **Juan Cortez Zamar** - Project Manager & Data Engineer
-
-    [Linkedin](https://www.linkedin.com/in/juanzamar)
-
-    [Github](https://github.com/juancorzamar93)
-
-    [Gmail](mailto:juancorzamar@gmail.com)
-- **Nicolas Salamanca** - Data Engineer
-  
-  [Linkedin](https://www.example.com/image.jpg)
-
-  [Github](https://github.com/NICOLAS-ANTONIO)
-
-  [Gmail](mailto:nicolas.antonio.sm@outlook.com)
-
-- **Juan Antonio Reyes Mendoza** - Data Scientist
- 
-  [Linkedin](https://www.linkedin.com/in/juan-antonio-reyes-mendoza/)
-
-  [Github](https://github.com/JuanAntonioRe)
-
-  [Gmail](mailto:juanantonio.r.m94@gmail.com)
-  
-- **Laura Minaya** - Business Intelligence Analyst
-  
-  [Linkedin](https://www.linkedin.com/in/laura-m-3a878b212/)
-
-  [Gmail](mailto:lauminagui@gmail.com)
 
 ### Despliegue del Producto
 Este proyecto está siendo desarrollado como parte de un programa de aceleramiento en No Country, el cual tiene como objetivo principal aprender y reforzar habilidades de trabajo en equipo, así como el desarrollo y uso de tecnologías en el campo de Data BI. Aunque no es un producto comercializable en esta etapa, el enfoque está en la mejora continua de habilidades técnicas y colaborativas.
