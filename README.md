@@ -1,9 +1,12 @@
-# Empresa
+# Empresa 🏬
+<p align="center">
+  <img width="" height="400" src="images/logo empresa.jpeg" alt="logo empresa">
+</p>
 
 ## Mision 🌱
 En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovadoras y basadas en datos que permitan a los analistas e inversionistas del sector energético tomar decisiones informadas y estratégicas. Aprovechamos el poder del análisis de datos financieros, machine learning y análisis de sentimiento de noticias para ofrecer una visión integral del mercado energético, ayudando a nuestros clientes a identificar oportunidades de inversión sostenibles y rentables.
 
-# Proyecto MVP
+# Proyecto MVP 📂
 <p align="center">
   <img width="" height="400" src="images/portada.png" alt="Proyecto">
 </p>
@@ -48,12 +51,14 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 
   [Gmail](mailto:lauminagui@gmail.com)
 
-## Objetivo del proyecto
-### Este proyecto tiene como objetivo proporcionar una solución integral para los analistas e inversionistas especializados en el sector energético, facilitando el acceso a datos actualizados de cotizaciones diarias de empresas que cotizan en bolsas internacionales. Mediante la integración de tecnologías avanzadas, se automatiza la extracción, almacenamiento y análisis de estos datos.
+## Objetivo del proyecto 🚩
+ Este proyecto tiene como objetivo:
+ - Proporcionar una solución integral para los analistas e inversionistas especializados en el sector energético, facilitando el acceso a datos actualizados de cotizaciones diarias de empresas que cotizan en bolsas internacionales. Mediante la integración de tecnologías avanzadas, se automatiza la extracción, almacenamiento y análisis de estos datos.
+  
+- Proporcionar una plataforma de visualización de datos interactiva, que permita a los analistas e inversionistas explorar de manera intuitiva y visual los datos financieros históricos y actuales, facilitando la identificación de tendencias y oportunidades de inversión. Los dashboards creados en Power BI ofrecerán una experiencia de usuario optimizada y accesible para la toma de decisiones.
+ - Incorporar análisis de sentimiento que permite evaluar el impacto de las noticias negativas sobre las empresas energéticas, que ayuda a los inversionistas a comprender mejor cómo las noticias pueden influir en las fluctuaciones del mercado, ofreciendo una visión más completa y estratégica para la toma de decisiones.
 
-<p align="center">
-  <img width="" height="400" src="images/STACK.png" alt="stack">
-</p>
+## Stack de Tecnologías/Herramientas 🚧
 
 
 |  Librería/herramienta    |   Logo                                    | Descripción                                                                                                           |
@@ -68,7 +73,6 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 |**Scikit-learn**|<img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/d20e0b9abc4a4798d1fd839db50b19c01723094e/doc/logos/scikit-learn-logo.svg" width="150">| Librería de Python para aprendizaje automático.|
 | **Jupyter**|<img src="https://jupyter.org/assets/homepage/main-logo.svg" width="65">| Software gratuito, estándares abiertos y servicios web para informática interactiva en todos los lenguajes de programación.|
 | **Visual Studio Code**|<img src="https://static-00.iconduck.com/assets.00/visual-studio-code-icon-512x506-2fdb6ar6.png" width="70">| Editor de código fuente.|
-| **PostgreSQL**|<img src="https://static-00.iconduck.com/assets.00/mysqlworkbench-icon-512x506-uen0mqej.png" width="65">| Herramienta visual de diseño de bases de datos que integra desarrollo de software, administración de bases de datos, diseño de bases de datos, gestión y mantenimiento para el sistema de base de datos MySQL.|
 | **Colaboratory con Python**|<img src="https://colab.research.google.com/img/colab_favicon_256px.png" width="60">| Utilizaremos Colaboratory, una plataforma de Google basada en Jupyter Notebooks, junto con las potentes librerías de Python para análisis de datos como Pandas, NumPy y Matplotlib.|
 | **Power BI**|<img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Analysts_PBI?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2000&qlt=99&fmt=png-alpha&fit=constrain" width="100">| Para la visualización de datos avanzada, aprovecharemos Power BI, una herramienta líder en el mercado para crear informes interactivos y paneles de control.|
 | **Canva**|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Canva_Logo.svg/250px-Canva_Logo.svg.png" width="100">| Es una plataforma de diseño gráfico y composición de imágenes.|
@@ -84,12 +88,11 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 | DBeaver | <img src="images/descarga.jpg" width="100"> | Herramienta de administración de bases de datos que soporta múltiples bases, incluida PostgreSQL. | 
 | DataGrip | <img src="https://resources.jetbrains.com/storage/products/datagrip/img/meta/datagrip_logo_300x300.png" width="100"> | IDE de bases de datos de JetBrains que proporciona una interfaz avanzada para trabajar con SQL y múltiples sistemas de bases de datos. | 
 | NLTK (Python) | <img src="images/nltk.png" width="100"> | Librería de Python para el procesamiento y análisis de lenguaje natural, utilizada para tareas de análisis de texto y sentimientos. |
+| Streamlit | <img src="images/streamlit.png" width="100"> | Streamlit es una herramienta de código abierto diseñada para crear aplicaciones web interactivas y visualizaciones de datos de manera rápida y sencilla utilizando Python. |
 
-<p align="center">
-  <img width="" height="400" src="images/gestion.png" alt="gestion">
-</p>
 
-### Metodología de Gestión de Proyectos
+
+## Metodología de Gestión de Proyectos ⏳
 
 - Para gestionar este proyecto, adoptamos la metodología Scrum, una opción ideal para proyectos en entornos complejos y dinámicos que requieren agilidad y resultados rápidos. Scrum se basa en entregas parciales y regulares del producto final, priorizando el valor entregado a los clientes. Esto nos permitió trabajar de manera ágil y adaptarnos continuamente a las necesidades cambiantes del proyecto.
   
@@ -97,36 +100,36 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
   
 - Como herramienta de gestión inicialmente utilizamos Trello, luego migramos a Jira para un seguimiento más detallado de las tareas/sprint y google Meet para las daily meeting.
 
+<p align="center">
+  <img width="" height="400" src="images/gestion.png" alt="gestion">
+</p>
 
+## Descripción del Proyecto ✏️
 
-## Descripción del Proyecto
+#### Nuestro sistema se encarga de extraer diariamente datos financieros actualizados de empresas energéticas desde Yahoo Finance, procesarlos mediante un pipeline automatizado de ETL, y almacenarlos en un data warehouse en Amazon Redshift. A partir de estos datos, se realizan análisis exploratorios (EDA), predicciones con modelos de machine learning y visualizaciones interactivas, con el fin de generar recomendaciones de inversión para nuestros usuarios.
 
-### Nuestro sistema se encarga de extraer diariamente datos financieros actualizados de empresas energéticas desde Yahoo Finance, procesarlos mediante un pipeline automatizado de ETL, y almacenarlos en un data warehouse en Amazon Redshift. A partir de estos datos, se realizan análisis exploratorios (EDA), predicciones con modelos de machine learning y visualizaciones interactivas, con el fin de generar recomendaciones de inversión para nuestros usuarios.
+#### Además, nuestro sistema realiza una extracción de noticias a través de la API de News API para llevar a cabo un análisis de sentimiento de las noticias relacionadas con las empresas energéticas, permitiendo identificar el impacto de las noticias negativas en los precios de las acciones.
 
-### Además, nuestro sistema realiza una extracción de noticias a través de la API de News API para llevar a cabo un análisis de sentimiento de las noticias relacionadas con las empresas energéticas, permitiendo identificar el impacto de las noticias negativas en los precios de las acciones.
+## Problema 🧠
 
-### Problema 🧠
+Los analistas e inversionistas en el sector energético enfrentan dificultades para obtener datos financieros actualizados y confiables sobre las empresas energéticas que cotizan en bolsas internacionales. Esta falta de datos actualizados puede dificultar la toma de decisiones informadas sobre inversiones y estrategias de mercado. Además, el impacto de las noticias sobre estas empresas no siempre se evalúa correctamente, lo que agrega incertidumbre en la interpretación de cómo los eventos externos afectan el rendimiento financiero de las compañías.
 
-Los analistas e inversionistas en el sector energético enfrentan dificultades para obtener datos financieros actualizados y confiables sobre las empresas energéticas que cotizan en bolsas internacionales. Esta falta de datos actualizados puede dificultar la toma de decisiones informadas sobre inversiones y estrategias de mercado.
+## Solución 💡
 
-### Solución 💡
+La solución planteada consiste:
 
-La solución planteada consiste en un sistema automatizado que:
-
-- 🔄 Extrae datos financieros diariamente desde [Yahoo Finance](https://finance.yahoo.com "Yahoo Finance")  utilizando técnicas de web scraping.
-- 📊 Almacena los datos en un data warehouse en Amazon Redshift, permitiendo acceso rápido y centralizado a información actualizada.
-- 🚀 Genera visualizaciones interactivas con Power BI, que muestran las cotizaciones históricas y actuales de las empresas energéticas.
-- 🤖 Implementa modelos de machine learning para predecir el comportamiento futuro de las acciones, ayudando a los analistas a tomar decisiones informadas.
-- 📰 Realiza análisis de sentimiento de noticias utilizando la API de News API, clasificando el sentimiento negativo sobre las empresas energéticas.
+- 🔄 Un sistema automatizado que extrae datos financieros diariamente desde [Yahoo Finance](https://finance.yahoo.com "Yahoo Finance")  utilizando técnicas de web scraping.
+- 📊 Almacenar los datos en un data warehouse en Amazon Redshift, permitiendo acceso rápido y centralizado a información actualizada.
+- 🚀 Generar visualizaciones interactivas con Power BI, que muestran las cotizaciones históricas y actuales de las empresas energéticas.
+- 🤖 Implementar modelos de machine learning para predecir el comportamiento futuro de las acciones, ayudando a los analistas a tomar decisiones informadas.
+- 📰 Realizar análisis de sentimiento de noticias utilizando la API de News API, clasificando el sentimiento negativo sobre las empresas energéticas.
   
 Este sistema proporciona a los analistas e inversionistas la capacidad de obtener datos confiables y actualizados de forma automatizada, lo que facilita la toma de decisiones estratégicas en el sector energético.
 
-<p align="center">
-  <img width="" height="400" src="images/ETL.png" alt="ETL">
-</p>
 
 
-### Características Principales 💡
+
+## Características Principales 📢
 
 - Extracción de datos financieros mediante web scraping.
 
@@ -142,7 +145,17 @@ Este sistema proporciona a los analistas e inversionistas la capacidad de obtene
 
 - Despliegue del modelo de machine learning para predicción de comportamientos futuros en las bolsas internacionales.
 
-### Datos Financieros
+
+
+
+## Etapas del Proyecto 🚀  
+### 1) **Mockup Técnico:** 🔨 
+Diseño inicial y planteamiento técnico del sistema de extracción, almacenamiento y visualización de los datos financieros.
+  <p align="center">
+  <img width="" height="400" src="images/ETL.png" alt="ETL">
+</p>
+
+#### Datos Financieros 💸
 
 Los datos extraídos de Yahoo Finance para cada empresa energética incluyen las siguientes columnas:
 
@@ -162,16 +175,15 @@ Los datos extraídos de Yahoo Finance para cada empresa energética incluyen las
 
 - **Stock Split:** Desdoblamiento de acciones. Cuando una empresa realiza un split de sus acciones (por ejemplo, 2 por 1), se indica en esta columna. Un "split" significa que las acciones se dividen, lo cual no cambia el valor total de la inversión, pero ajusta el precio por acción.
 
+### 2) **Mockup Sentimiento:** 😁
+Implementación de la funcionalidad para analizar el sentimiento de las noticias de las empresas energéticas de América Latina.
+### 3) **Mockup Predictivo:** 📈
+Desarrollo del modelo de machine learning para predecir el comportamiento de las acciones basado en los datos históricos y actuales.
+  
+## Contenidos del Proyecto
+- 📊 **Dashboard :** Visualización interactiva de los datos financieros en Power BI. Enlace al tablero (aquí incluirás el link).
+- 🤖 **Desplegamiento:** Modelo de Machine Learning y de Análisis de sentimiento desplegados en Streamlit.(aquí incluirás el link).
+- 📂**Data :** Acceso al dataset utilizado para el análisis financiero. Enlace al dataset.(aquí incluirás el link).
+- 📑**Presentación:** Presentación del proyecto en PowerPoint. Enlace a la presentación. (aquí incluirás el link).
 
-### Etapas del Proyecto 🚀  
-- **Mockup Técnico:** Diseño inicial y planteamiento técnico del sistema de extracción, almacenamiento y visualización de los datos financieros.
-- **Mockup Sentimiento:** Implementación de la funcionalidad para analizar el sentimiento de las noticias de las empresas energéticas de América Latina.
-- **Mockup Predictivo:** Desarrollo del modelo de machine learning para predecir el comportamiento de las acciones basado en los datos históricos y actuales.
-- 
-### Contenidos del Proyecto
-- 📊 **Dashboard :** Visualización interactiva de los datos financieros en Power BI. Enlace al tablero (aquí incluirás el link y la imagen del dashboard).
-- 📂**Data :** Acceso al dataset utilizado para el análisis financiero. Enlace al dataset.
-- 📑**Presentación:** Presentación del proyecto en PowerPoint. Enlace a la presentación.
-
-## 📢 Conclusiones clave
 
