@@ -1,6 +1,6 @@
 # Empresa 🏬
 <p align="center">
-  <img width="" height="400" src="images/logo empresa.jpeg" alt="logo empresa">
+  <img width="" height="600" src="images/logo empresa.jpeg" alt="logo empresa">
 </p>
 
 ## Mision 🌱
@@ -16,20 +16,20 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
   <img width="" height="400" src="images/team.png" alt="Team">
 </p>
 
-- **José Paternina Orozco** - Team Leader
+- **José Paternina Orozco** 
 
     [Linkedin](https://www.linkedin.com/in/josepaterninaorozco/?originalSubdomain=co)
 
     [Gmail](mailto:juanantonio.r.m94@gmail.com)
 
-- **Juan Cortez Zamar** - Project Manager & Data Engineer
+- **Juan Cortez Zamar** 
 
     [Linkedin](https://www.linkedin.com/in/juanzamar)
 
     [Github](https://github.com/juancorzamar93)
 
     [Gmail](mailto:juancorzamar@gmail.com)
-- **Nicolas Salamanca** - Data Scientist
+- **Nicolas Salamanca** 
   
   [Linkedin](https://www.example.com/image.jpg)
 
@@ -37,7 +37,7 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 
   [Gmail](mailto:nicolas.antonio.sm@outlook.com)
 
-- **Juan Antonio Reyes Mendoza** - Data Scientist
+- **Juan Antonio Reyes Mendoza** 
  
   [Linkedin](https://www.linkedin.com/in/juan-antonio-reyes-mendoza/)
 
@@ -45,7 +45,7 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 
   [Gmail](mailto:juanantonio.r.m94@gmail.com)
   
-- **Laura Minaya** - Business Intelligence Analyst
+- **Laura Minaya** 
   
   [Linkedin](https://www.linkedin.com/in/laura-m-3a878b212/)
 
@@ -53,10 +53,12 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 
 ## Objetivo del proyecto 🚩
  Este proyecto tiene como objetivo:
- - Proporcionar una solución integral para los analistas e inversionistas especializados en el sector energético, facilitando el acceso a datos actualizados de cotizaciones diarias de empresas que cotizan en bolsas internacionales. Mediante la integración de tecnologías avanzadas, se automatiza la extracción, almacenamiento y análisis de estos datos.
+
+  ☑️ Proporcionar una solución integral para los analistas e inversionistas especializados en el sector energético, facilitando el acceso a datos actualizados de cotizaciones diarias de empresas que cotizan en bolsas internacionales. Mediante la integración de tecnologías avanzadas, se automatiza la extracción, almacenamiento y análisis de estos datos.
   
-- Proporcionar una plataforma de visualización de datos interactiva, que permita a los analistas e inversionistas explorar de manera intuitiva y visual los datos financieros históricos y actuales, facilitando la identificación de tendencias y oportunidades de inversión. Los dashboards creados en Power BI ofrecerán una experiencia de usuario optimizada y accesible para la toma de decisiones.
- - Incorporar análisis de sentimiento que permite evaluar el impacto de las noticias negativas sobre las empresas energéticas, que ayuda a los inversionistas a comprender mejor cómo las noticias pueden influir en las fluctuaciones del mercado, ofreciendo una visión más completa y estratégica para la toma de decisiones.
+  ☑️ Proporcionar una plataforma de visualización de datos interactiva, que permita a los analistas e inversionistas explorar de manera intuitiva y visual los datos financieros históricos y actuales, facilitando la identificación de tendencias y oportunidades de inversión. Los dashboards creados en Power BI ofrecerán una experiencia de usuario optimizada y accesible para la toma de decisiones.
+
+  ☑️ Incorporar análisis de sentimiento que permite evaluar el impacto de las noticias negativas sobre las empresas energéticas, que ayuda a los inversionistas a comprender mejor cómo las noticias pueden influir en las fluctuaciones del mercado, ofreciendo una visión más completa y estratégica para la toma de decisiones.
 
 ## Stack de Tecnologías/Herramientas 🚧
 
@@ -94,11 +96,11 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 
 ## Metodología de Gestión de Proyectos ⏳
 
-- Para gestionar este proyecto, adoptamos la metodología Scrum, una opción ideal para proyectos en entornos complejos y dinámicos que requieren agilidad y resultados rápidos. Scrum se basa en entregas parciales y regulares del producto final, priorizando el valor entregado a los clientes. Esto nos permitió trabajar de manera ágil y adaptarnos continuamente a las necesidades cambiantes del proyecto.
+➡️ Para gestionar este proyecto, adoptamos la metodología Scrum, una opción ideal para proyectos en entornos complejos y dinámicos que requieren agilidad y resultados rápidos. Scrum se basa en entregas parciales y regulares del producto final, priorizando el valor entregado a los clientes. Esto nos permitió trabajar de manera ágil y adaptarnos continuamente a las necesidades cambiantes del proyecto.
   
-- Para la gestión, organizamos las fases del proyecto en cuatro sprints semanales. 
+➡️Para la gestión, organizamos las fases del proyecto en cuatro sprints semanales. 
   
-- Como herramienta de gestión inicialmente utilizamos Trello, luego migramos a Jira para un seguimiento más detallado de las tareas/sprint y google Meet para las daily meeting.
+➡️ Como herramienta de gestión inicialmente utilizamos Trello, luego      migramos a Jira para un seguimiento más detallado de las tareas/sprint y google Meet para las daily meeting.
 
 <p align="center">
   <img width="" height="400" src="images/gestion.png" alt="gestion">
@@ -106,13 +108,15 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 
 ## Descripción del Proyecto ✏️
 
-#### Nuestro sistema se encarga de extraer diariamente datos financieros actualizados de empresas energéticas desde Yahoo Finance, procesarlos mediante un pipeline automatizado de ETL, y almacenarlos en un data warehouse en Amazon Redshift. A partir de estos datos, se realizan análisis exploratorios (EDA), predicciones con modelos de machine learning y visualizaciones interactivas, con el fin de generar recomendaciones de inversión para nuestros usuarios.
+🔴 Nuestro sistema se encarga de extraer diariamente datos financieros actualizados de empresas energéticas desde Yahoo Finance, procesarlos mediante un pipeline automatizado de ETL, y almacenarlos en un data warehouse en Amazon Redshift. A partir de estos datos, se realizan análisis exploratorios (EDA), predicciones con modelos de machine learning y visualizaciones interactivas, con el fin de generar recomendaciones de inversión para nuestros usuarios.
 
-#### Además, nuestro sistema realiza una extracción de noticias a través de la API de News API para llevar a cabo un análisis de sentimiento de las noticias relacionadas con las empresas energéticas, permitiendo identificar el impacto de las noticias negativas en los precios de las acciones.
+🔴Además, nuestro sistema realiza una extracción de noticias a través de la API de News API para llevar a cabo un análisis de sentimiento de las noticias relacionadas con las empresas energéticas, permitiendo identificar el impacto de las noticias negativas en los precios de las acciones.
 
 ## Problema 🧠
 
-Los analistas e inversionistas en el sector energético enfrentan dificultades para obtener datos financieros actualizados y confiables sobre las empresas energéticas que cotizan en bolsas internacionales. Esta falta de datos actualizados puede dificultar la toma de decisiones informadas sobre inversiones y estrategias de mercado. Además, el impacto de las noticias sobre estas empresas no siempre se evalúa correctamente, lo que agrega incertidumbre en la interpretación de cómo los eventos externos afectan el rendimiento financiero de las compañías.
+❌ Los analistas e inversionistas en el sector energético enfrentan dificultades para obtener datos financieros actualizados y confiables sobre las empresas energéticas que cotizan en bolsas internacionales. Esta falta de datos actualizados puede dificultar la toma de decisiones informadas sobre inversiones y estrategias de mercado. 
+
+❌Además, el impacto de las noticias sobre estas empresas no siempre se evalúa correctamente, lo que agrega incertidumbre en la interpretación de cómo los eventos externos afectan el rendimiento financiero de las compañías.
 
 ## Solución 💡
 
@@ -131,19 +135,19 @@ Este sistema proporciona a los analistas e inversionistas la capacidad de obtene
 
 ## Características Principales 📢
 
-- Extracción de datos financieros mediante web scraping.
+  📌Extracción de datos financieros mediante web scraping.
 
-- Automatización de procesos ETL usando Airflow en Composer de Google.
+ 📌Automatización de procesos ETL usando Airflow en Composer de Google.
 
-- Análisis exploratorio de datos (EDA) para obtener insights iniciales.
+  📌Análisis exploratorio de datos (EDA) para obtener insights iniciales.
 
-- Análisis avanzado de datos financieros.
+📌Análisis avanzado de datos financieros.
 
-- Análisis de sentimientos de noticias relacionadas con empresas de energía de América Latina
+📌Análisis de sentimientos de noticias relacionadas con empresas de energía de América Latina
   
-- Visualización interactiva de los datos financieros históricos y actuales mediante Power BI.
+ 📌Visualización interactiva de los datos financieros históricos y actuales mediante Power BI.
 
-- Despliegue del modelo de machine learning para predicción de comportamientos futuros en las bolsas internacionales.
+ 📌Despliegue del modelo de machine learning para predicción de comportamientos futuros en las bolsas internacionales.
 
 
 
@@ -180,7 +184,7 @@ Implementación de la funcionalidad para analizar el sentimiento de las noticias
 ### 3) **Mockup Predictivo:** 📈
 Desarrollo del modelo de machine learning para predecir el comportamiento de las acciones basado en los datos históricos y actuales.
   
-## Contenidos del Proyecto
+## Contenidos del Proyecto 📁
 - 📊 **Dashboard :** Visualización interactiva de los datos financieros en Power BI. Enlace al tablero (aquí incluirás el link).
 - 🤖 **Desplegamiento:** Modelo de Machine Learning y de Análisis de sentimiento desplegados en Streamlit.(aquí incluirás el link).
 - 📂**Data :** Acceso al dataset utilizado para el análisis financiero. Enlace al dataset.(aquí incluirás el link).
