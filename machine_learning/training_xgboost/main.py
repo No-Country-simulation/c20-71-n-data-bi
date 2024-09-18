@@ -31,16 +31,12 @@ def main(company_name):
     if df is None:
         print('Fallo la extraccion de datos')
         return None
-        
-    print(df.head(5))
     
     df = preprocess_data(df)
     
     df = fetures_engineering(df)
     
-    print(df.head(5))
-    
-    X = df.drop(['target', 'tomorrow'], axis=1)
+    X = df.drop(['target', 'tomorrow', 'close'], axis=1)
     y = df['target']
     
     model, scaler, X_test, y_test = train_model(X, y)

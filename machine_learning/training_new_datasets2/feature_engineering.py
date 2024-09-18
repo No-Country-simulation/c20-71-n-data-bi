@@ -1,12 +1,12 @@
 # Función para crear nuevas características
 def engineer_features(df):
     # shift la variable objetivo
-    df['Next_Day_Return'] = df['Daily_Return'].shift(-1)
+    df['Next_Day_Close'] = df['Close'].shift(-1)
     
-    df['Target'] = (df['Next_Day_Return'] >= 0).astype(int)
+    df['Target'] = (df['Next_Day_Close'] >= 0).astype(int)
     
     # Lag features (Características de desfase): valores pasados de una variable
-    lag_features = ['Close', 'EMA20', 'SMA50', 'OBV', 'Stoch_D', 'Stoch_K', 'ROC', 'Volume_SMA20']
+    lag_features = ['EMA20', 'SMA50', 'OBV', 'Stoch_D', 'Stoch_K', 'ROC', 'Volume_SMA20', 'Daily_Return']
     for feature in lag_features:
         df[f'{feature}_Lag1'] = df[feature].shift(1)
         df[f'{feature}_Lag2'] = df[feature].shift(2)

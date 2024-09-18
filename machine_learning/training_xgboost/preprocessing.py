@@ -7,7 +7,7 @@ def preprocess_data(df):
     df_featured['date'] = pd.to_datetime(df_featured['date'])
     df_featured = df_featured.drop_duplicates()
     df_featured = df_featured.set_index('date')
-    #df_featured = df_featured.sort_index()
+    df_featured = df_featured.sort_index()
     
     df_featured['tomorrow'] = df_featured['close'].shift(-1)
     

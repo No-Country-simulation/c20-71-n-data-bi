@@ -9,7 +9,7 @@ from scipy.stats import uniform, randint
 
 # Función para separar caracterísitcas y objetivo
 def prepare_data(df):
-    X = df.drop(['Daily_Return', 'Next_Day_Return', 'Target'], axis=1)
+    X = df.drop(['Close', 'Next_Day_Close', 'Target'], axis=1)
     y = df['Target']
     return train_test_split(X, y, test_size=0.2, shuffle=False)
 
