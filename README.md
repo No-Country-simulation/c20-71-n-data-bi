@@ -1,6 +1,6 @@
 # Empresa
 
-## Objetivo🌱
+## Mision 🌱
 En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovadoras y basadas en datos que permitan a los analistas e inversionistas del sector energético tomar decisiones informadas y estratégicas. Aprovechamos el poder del análisis de datos financieros, machine learning y análisis de sentimiento de noticias para ofrecer una visión integral del mercado energético, ayudando a nuestros clientes a identificar oportunidades de inversión sostenibles y rentables.
 
 # Proyecto MVP
@@ -48,6 +48,7 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 
   [Gmail](mailto:lauminagui@gmail.com)
 
+## Objetivo del proyecto
 ### Este proyecto tiene como objetivo proporcionar una solución integral para los analistas e inversionistas especializados en el sector energético, facilitando el acceso a datos actualizados de cotizaciones diarias de empresas que cotizan en bolsas internacionales. Mediante la integración de tecnologías avanzadas, se automatiza la extracción, almacenamiento y análisis de estos datos.
 
 <p align="center">
@@ -101,6 +102,8 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 ## Descripción del Proyecto
 
 ### Nuestro sistema se encarga de extraer diariamente datos financieros actualizados de empresas energéticas desde Yahoo Finance, procesarlos mediante un pipeline automatizado de ETL, y almacenarlos en un data warehouse en Amazon Redshift. A partir de estos datos, se realizan análisis exploratorios (EDA), predicciones con modelos de machine learning y visualizaciones interactivas, con el fin de generar recomendaciones de inversión para nuestros usuarios.
+
+### Además, nuestro sistema realiza una extracción de noticias a través de la API de News API para llevar a cabo un análisis de sentimiento de las noticias relacionadas con las empresas energéticas, permitiendo identificar el impacto de las noticias negativas en los precios de las acciones.
 
 ### Problema 🧠
 
