@@ -8,8 +8,8 @@ from scipy.stats import uniform, randint
 
 # Función para separar caracterísitcas y objetivo
 def prepare_data(df):
-    X = df.drop(['Daily_Return', 'Next_Day_Return'], axis=1)
-    y = df['Next_Day_Return']
+    X = df.drop(['Close', 'Close_Tomorrow'], axis=1)
+    y = df['Close_Tomorrow']
     return train_test_split(X, y, test_size=0.2, shuffle=False)
 
 def tune_hyperparameters(X_train, y_train):
