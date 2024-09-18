@@ -2,5 +2,9 @@ data_bi/
 __pycache__/
 *.pyc
 
+*.ipynb
+
 # ambiente virtual
 venv/
+
+config.py
