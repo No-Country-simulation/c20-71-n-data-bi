@@ -110,7 +110,7 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 
 🔴 Nuestro sistema se encarga de extraer diariamente datos financieros actualizados de empresas energéticas desde Yahoo Finance, procesarlos mediante un pipeline automatizado de ETL, y almacenarlos en un data warehouse en Amazon Redshift. A partir de estos datos, se realizan análisis exploratorios (EDA), predicciones con modelos de machine learning y visualizaciones interactivas, con el fin de generar recomendaciones de inversión para nuestros usuarios.
 
-🔴Además, nuestro sistema realiza una extracción de noticias a través de la API de News API para llevar a cabo un análisis de sentimiento de las noticias relacionadas con las empresas energéticas, permitiendo identificar el impacto de las noticias negativas en los precios de las acciones.
+🔴 Además, nuestro sistema realiza una extracción de noticias a través de la API de News API para llevar a cabo un análisis de sentimiento de las noticias relacionadas con las empresas energéticas, permitiendo identificar el impacto de las noticias negativas en los precios de las acciones.
 
 ## Problema 🧠
 
@@ -120,7 +120,7 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 
 ## Solución 💡
 
-La solución planteada consiste:
+✅La solución planteada consiste:
 
 - 🔄 Un sistema automatizado que extrae datos financieros diariamente desde [Yahoo Finance](https://finance.yahoo.com "Yahoo Finance")  utilizando técnicas de web scraping.
 - 📊 Almacenar los datos en un data warehouse en Amazon Redshift, permitiendo acceso rápido y centralizado a información actualizada.
@@ -128,7 +128,7 @@ La solución planteada consiste:
 - 🤖 Implementar modelos de machine learning para predecir el comportamiento futuro de las acciones, ayudando a los analistas a tomar decisiones informadas.
 - 📰 Realizar análisis de sentimiento de noticias utilizando la API de News API, clasificando el sentimiento negativo sobre las empresas energéticas.
   
-Este sistema proporciona a los analistas e inversionistas la capacidad de obtener datos confiables y actualizados de forma automatizada, lo que facilita la toma de decisiones estratégicas en el sector energético.
+✅Este sistema proporciona a los analistas e inversionistas la capacidad de obtener datos confiables y actualizados de forma automatizada, lo que facilita la toma de decisiones estratégicas en el sector energético.
 
 
 
