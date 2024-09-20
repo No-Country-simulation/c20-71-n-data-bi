@@ -21,54 +21,56 @@ Date,Company,Ticker,Avg_Sentiment,Min_Sentiment,Max_Sentiment,News_Count,Sample_
 2024-09-05,enel_chile,ENIC,-0.5994,-0.5994,-0.5994,1,Laboratory evidence of the nonresonant streaming instability in the formation of quasiparallel collisionless shocks at high Alfvénic Mach number
 2024-09-06,braskem,BAK,-0.8225,-0.8225,-0.8225,1,Braskem SA faces $5 billion lawsuit over damages
 2024-09-06,cemig,CIG,-0.802,-0.802,-0.802,1,29 Hotel Employees Share Their Most Unforgettable Moments With Guests
-2024-09-06,vale,VALE,-0.392775,-0.5423,-0.1531,4,"A chemical explosion rocked this quiet town, and residents are still reeling from the shockwave"
-2024-09-07,vale,VALE,-0.5457,-0.7096,-0.3818,2,IISF offers momentum for sustainable management of critical minerals
+2024-09-06,vale,VALE,-0.392775,-0.5423,-0.1531,4,"Vale, BHP, Samarco could close $18 billion deal over Brazil dam collapse, sources say"
+2024-09-07,vale,VALE,-0.5457,-0.7096,-0.3818,2,Portugal high-security jailbreak sees five inmates escaping by ladder
 2024-09-08,vale,VALE,-0.98,-0.98,-0.98,1,'Very dangerous' British prisoner among five inmates to escape from high-security jail in Portugal
-2024-09-09,companhia_siderurgica_nacional,SID,-0.6398333333333334,-0.8271,-0.296,3,"UPDATE - IMUNON’s Ovarian Cancer R&D Day to Feature Presentations from IMNN-001 Clinical Study Investigators, Immunology and Biostatistics Experts, and Executive Management"
 2024-09-09,vale,VALE,-0.9263666666666667,-0.9854,-0.8353,3,British prisoner among five to escape Portuguese jail
 2024-09-10,braskem,BAK,-0.7783,-0.7783,-0.7783,1,CosmicBeetle steps up: Probation period at RansomHub
 2024-09-10,companhia_paranaense_de_energia,ELP,-0.9719,-0.9719,-0.9719,1,Phycocyanin attenuates skeletal muscle damage and fatigue via modulation of Nrf2 and IRS-1/AKT/mTOR pathway in exercise-induced oxidative stress in rats
-2024-09-10,companhia_siderurgica_nacional,SID,-0.41532500000000006,-0.7506,-0.128,4,Snort Subscriber Rules Update 2024-09-10
 2024-09-10,copel,ELP,-0.9719,-0.9719,-0.9719,1,Phycocyanin attenuates skeletal muscle damage and fatigue via modulation of Nrf2 and IRS-1/AKT/mTOR pathway in exercise-induced oxidative stress in rats
 2024-09-10,geb,GEB.CL,-0.8979,-0.8979,-0.8979,1,Bogotá Adds Risk of Power Cuts to Its Months-Long Water Shortage
 2024-09-10,petrobras,PBR,-0.35150000000000003,-0.4767,-0.2263,2,"Petrobras, Shell Partnership Bags 26 Pelotas Basin Concession Contracts"
 2024-09-10,vale,VALE,-0.1027,-0.1027,-0.1027,1,"Apple tax bonanza hands Ireland political, reputational headache"
 2024-09-11,braskem,BAK,-0.3612,-0.3612,-0.3612,1,Oil Giant ADNOC Set to Make Formal $16-Billion Offer for Covestro
-2024-09-11,companhia_siderurgica_nacional,SID,-0.8464499999999999,-0.8779,-0.815,2,The New Rangers' Villains Exposed
+2024-09-11,companhia_siderurgica_nacional,SID,-0.8464499999999999,-0.8779,-0.815,2,Texas is Running Out of Water
 2024-09-11,vale,VALE,-0.7638,-0.802,-0.7256,2,Ireland wonders how to spend Apple’ back tax bonanza
-2024-09-12,aes_andes,AES,-0.4061,-0.5859,-0.2263,2,"Anti-inflammatory effect of colchicine on organ damage during the perioperative period of cardiac surgery: a study protocol for a multicentre, randomised, double-blind, placebo-controlled clinical trial"
 2024-09-12,braskem,BAK,-0.8271,-0.8271,-0.8271,1,Police investigating e-commerce platform Qoo10 over payment delays to vendors
 2024-09-12,geb,GEB.CL,-0.1655,-0.1655,-0.1655,1,Skeptical Science New Research for Week #37 2024
-2024-09-12,pampa_energia,PAM,-0.6908285714285715,-0.9618,-0.1027,7,Our Girls Friday: The Final Girls of the Friday the 13th Franchise [Friday the 13th Week]
-2024-09-12,vale,VALE,-0.57485,-0.8957,-0.296,6,Why the iron ore price could have further to fall
+2024-09-12,vale,VALE,-0.57485,-0.8957,-0.296,6,[EU] Season of Discovery Hotfixes - 11 September
 2024-09-13,braskem,BAK,-0.5214,-0.5214,-0.5214,1,Lock out SIRT4
 2024-09-13,companhia_siderurgica_nacional,SID,-0.886,-0.886,-0.886,1,"The Story Of Rosemarie Fritzl, The Former Wife Of Josef Fritzl — And Whether She Knew About Her Daughter’s Captivity"
-2024-09-13,pampa_energia,PAM,-0.3671333333333333,-0.8625,-0.0772,6,Harris' rise in polls sparks wave of wealth transfers to kids
+2024-09-13,pampa_energia,PAM,-0.26806,-0.5267,-0.0772,5,IRL Workplaces Are Under the Spell of TikTok's Office Sirens
 2024-09-13,petrobras,PBR,-0.431,-0.6597,-0.2023,2,Monsters Mini Pack by Valeria Miller
 2024-09-13,vale,VALE,-0.6551,-0.7835,-0.5267,2,"Manchester City x Brentford: onde assistir, escalações, arbitragem"
 2024-09-13,ypf,YPF,-0.2732,-0.2732,-0.2732,1,Latin America Is Rewriting the Rules and Spooking Investors
 2024-09-14,aes_andes,AES,-0.8,-0.9403,-0.6597,2,Pfizer's BRAFTOVI ® + MEKTOVI ® Shows Long-Term Clinically Meaningful Response in Patients with BRAF V600E-Mutant Metastatic Non-Small Cell Lung Cancer
-2024-09-14,companhia_siderurgica_nacional,SID,-0.66455,-0.9459,-0.3832,2,"Top 10 Friday Night SmackDown moments: WWE Top 10, Sept. 13, 2024"
-2024-09-14,ecopetrol,EC,-0.62462,-0.7351,-0.5267,5,Parenting: Caught in an endless cycle of failed productivity? Me too
+2024-09-14,companhia_siderurgica_nacional,SID,-0.66455,-0.9459,-0.3832,2,"PC Games 10/24: Mit Coverstory zu Civilization 7, Preview zu Kingdom Come: Deliverance 2, Test zu Star Wars Outlaws u. a."
 2024-09-14,pampa_energia,PAM,-0.1779,-0.1779,-0.1779,1,Capehart: ‘Frightening’ Half of the Country Is Buying What Trump Is Selling
 2024-09-14,vale,VALE,-0.9735,-0.9735,-0.9735,1,Grieving families and traumatised crash survivors plead for action on the Bruce Highway
 2024-09-15,aes_andes,AES,-0.8292,-0.9001,-0.7184,4,KEYTRUDA ® (pembrolizumab) Plus Chemotherapy Before Surgery and Continued as Single Agent After Surgery Reduced Risk of Death by More Than One-Third (34%) Versus Neoadjuvant Chemotherapy in High-Risk
 2024-09-15,companhia_siderurgica_nacional,SID,-0.128,-0.128,-0.128,1,I'm Worried That Civilization 7 Is Missing The Point Of The Civilization Franchise
-2024-09-15,ecopetrol,EC,-0.1027,-0.1027,-0.1027,2,"Chronological Reading for Sunday September 15, 2024 (NIV)"
 2024-09-15,pampa_energia,PAM,-0.7779714285714286,-0.9595,-0.3252,7,"Vance: Media, Harris Campaign Have Been 'Calling the Residents of Springfield Racists'"
-2024-09-16,aes_andes,AES,-0.9114249999999999,-0.9761,-0.7603,4,Darolutamide plus androgen deprivation therapy significantly reduced the risk of radiological progression or death by 46% compared to placebo plus ADT in patients with metastatic hormone-sensitive prostate cancer
+2024-09-16,aes_andes,AES,-0.9114249999999999,-0.9761,-0.7603,4,Linux kernel 6.11 is out - with its own BSOD
 2024-09-16,braskem,BAK,-0.4939,-0.4939,-0.4939,1,"Hacker Claims Breach of UK’s Experience Engine, Data Sold Online"
-2024-09-16,companhia_siderurgica_nacional,SID,-0.505375,-0.7783,-0.1779,4,Otherwise Lost
-2024-09-16,ecopetrol,EC,-0.593,-0.936,-0.1531,7,日本初上陸！香港で大盛況の「魔法の天使クリィミーマミ」POP-UPストアが約80種類の商品と共に秋葉原に期間限定登場！
-2024-09-16,pampa_energia,PAM,-0.9142142857142856,-0.9674,-0.7599,7,MSNBC’s Wallace: Connection Between Trump’s Rhetoric and Political Violence ‘Undeniable’
+2024-09-16,companhia_siderurgica_nacional,SID,-0.505375,-0.7783,-0.1779,4,"Vulnerability Summary for the Week of September 9, 2024"
+2024-09-16,ecopetrol,EC,-0.58225,-0.7783,-0.1531,4,Anti-EC Demo: Social Media Backlash Against NDC
+2024-09-16,pampa_energia,PAM,-0.9142142857142856,-0.9674,-0.7599,7,Sister desperate to bring brother's cold case killer to justice
 2024-09-16,vale,VALE,-0.7943000000000001,-0.936,-0.5719,3,A Look into August 2024 Destruction in EVE Online – The Catch Invasion Edition
 2024-09-17,aes_andes,AES,-0.9501,-0.9501,-0.9501,1,FDA approves Novartis Kisqali® to reduce risk of recurrence in people with HR+/HER2- early breast cancer
 2024-09-17,centrais_eletricas_brasileiras,EBR,-0.5267,-0.5267,-0.5267,1,"Jefferies cuts D'Ieteren Group stock target, downgrades to Hold rating"
-2024-09-17,companhia_siderurgica_nacional,SID,-0.77475,-0.9129,-0.4019,4,"Trump touts World Liberty Financial crypto exchange, but questions remain"
-2024-09-17,ecopetrol,EC,-0.299,-0.6908,-0.1027,10,Ghana opposition demands voter roll audit
+2024-09-17,companhia_siderurgica_nacional,SID,-0.77475,-0.9129,-0.4019,4,"Edgar Barrera, Karol G, and Bad Bunny Lead 2024 Latin Grammy Nominations"
+2024-09-17,ecopetrol,EC,-0.29900000000000004,-0.6908,-0.1027,10,株式会社イーシーキューブとアマゾンが更なる協業体制強化
 2024-09-17,eletrobras,EBR,-0.5267,-0.5267,-0.5267,1,"Jefferies cuts D'Ieteren Group stock target, downgrades to Hold rating"
 2024-09-17,geb,GEB.CL,-0.975,-0.975,-0.975,1,Distribution and habitat use patterns of the endangered Central American clouded oncilla (Leopardus pardinoides oncilla) in Costa Rica
-2024-09-17,light,LGSXY,-0.447796,-0.9833,-0.0258,25,FIRST LOOK: Hayley Wilson x Nike SB Dunk Low
-2024-09-17,pampa_energia,PAM,-0.7911,-0.9864,-0.1901,8,"Her Daughter’s Gen X Boyfriend Did Something Brave For Her After Someone Poured Wine On Her At A Wedding, But She’s Confused Why He Didn’t Do More"
-2024-09-17,petrobras,PBR,-0.49435,-0.886,-0.1027,2,Big Agribusiness: A Look at Brazil’s Disastrous Rural Feudalism
-2024-09-17,vale,VALE,-0.7769666666666666,-0.8885,-0.2732,6,"Latin Grammy Nominations 2024: Edgar Barrera Leads List With 9, Followed By Karol G and Bad Bunny"
+2024-09-17,pampa_energia,PAM,-0.7911,-0.9864,-0.1901,8,Hillary Clinton: Trump's 'Politics of Hate and Division' Puts America's Security in Danger
+2024-09-17,petrobras,PBR,-0.49435,-0.886,-0.1027,2,Tech Tuesdays: Product Discovery Challenges + the Woes of Returns
+2024-09-17,vale,VALE,-0.7769666666666666,-0.8885,-0.2732,6,CBA predicts further 13% drop in iron ore price
+2024-09-18,aes_andes,AES,-0.6047857142857144,-0.9652,-0.0516,7,Analysis: Al Qaeda strikes the Malian capital
+2024-09-18,companhia_paranaense_de_energia,ELP,-0.9328,-0.9328,-0.9328,1,Targeting ferroptosis with the lipoxygenase inhibitor PTC-041 as a therapeutic strategy for the treatment of Parkinson’s disease
+2024-09-18,companhia_siderurgica_nacional,SID,-0.81145,-0.9524,-0.6705,2,Hollywood Legends Suffer Horrid Death and Injuries at Fault of MGM Studios: On-Set Nightmares Exposed
+2024-09-18,copel,ELP,-0.9328,-0.9328,-0.9328,1,Targeting ferroptosis with the lipoxygenase inhibitor PTC-041 as a therapeutic strategy for the treatment of Parkinson’s disease
+2024-09-18,ecopetrol,EC,-0.6873,-0.926,-0.25,8,アサヒ飲料がクラウドEC構築プラットフォーム「メルカート」を採用　ウイスキー樽で熟成させた薫り高いコーヒー豆のEC販売をスタート
+2024-09-18,light,LGSXY,-0.5557357142857142,-0.9796,-0.0187,28,Matte Metallic Silver Upgrades The Nike Air Max Scorpion
+2024-09-18,pampa_energia,PAM,-0.6324,-0.7096,-0.5267,3,MSNBC's Reid: Trump Blaming Dems for Assassination Attempts Is the Definition of 'Gaslighting'
+2024-09-18,petrobras,PBR,-0.0772,-0.0772,-0.0772,1,Worn Industrial Surfaces Superpack by Shaded Spectrum
+2024-09-18,vale,VALE,-0.5569,-0.8442,-0.2023,4,"Police Make Major Breakthrough In Asha Degree Case, 9-Year-Old Who Vanished 24 Years Ago"

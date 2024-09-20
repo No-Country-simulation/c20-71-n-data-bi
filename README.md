@@ -186,7 +186,9 @@ Desarrollo del modelo de machine learning para predecir el comportamiento de las
   
 ## Contenidos del Proyecto 📁
 - 📊 **Dashboard :** Visualización interactiva de los datos financieros en Power BI. Enlace al tablero (aquí incluirás el link).
-- 🤖 **Desplegamiento:** Modelo de Machine Learning y de Análisis de sentimiento desplegados en Streamlit.(aquí incluirás el link).
+- 🤖 **Desplegamiento:** Modelo de Machine Learning y de Análisis de sentimiento desplegados en Streamlit. Link:
+ [Streamlit](https://c20-71-n-data-bi-mbjwns5g9t7ex9txnnjw8p.streamlit.app)
+  
 - 📂**Data :** Acceso al dataset utilizado para el análisis financiero. Enlace al dataset.(aquí incluirás el link).
 - 📑**Presentación:** Presentación del proyecto en PowerPoint. Enlace a la presentación. (aquí incluirás el link).
 
