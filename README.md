@@ -71,7 +71,6 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 |**Yfinance**|<img src="https://cdn6.aptoide.com/imgs/c/2/7/c271bd2b90b62b493e82435882c44846_icon.png?w=128" width="30">| API de Python para datos financieros de Yahoo Finance.|
 |**XGBoost**|<img src="https://miro.medium.com/v2/resize:fit:1190/1*yhE3CBwTrlXcAIvNJNTQiA.png" width="100">| Librería de Python para algoritmos de boosting.|
 |**Lightgbm**|<img src="https://www.kdnuggets.com/wp-content/uploads/chugh_lgbmclassifier_gettingstarted_guide_1.png" width="50">| Framework de aprendizaje automático basado en árboles.|
-|**Statsmodels**|<img src="https://www.statsmodels.org/stable/_images/statsmodels-logo-v2.svg" width="75">| Librería de Python para modelado estadístico.|
 |**Scikit-learn**|<img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/d20e0b9abc4a4798d1fd839db50b19c01723094e/doc/logos/scikit-learn-logo.svg" width="150">| Librería de Python para aprendizaje automático.|
 | **Jupyter**|<img src="https://jupyter.org/assets/homepage/main-logo.svg" width="65">| Software gratuito, estándares abiertos y servicios web para informática interactiva en todos los lenguajes de programación.|
 | **Visual Studio Code**|<img src="https://static-00.iconduck.com/assets.00/visual-studio-code-icon-512x506-2fdb6ar6.png" width="70">| Editor de código fuente.|
@@ -181,8 +180,16 @@ Los datos extraídos de Yahoo Finance para cada empresa energética incluyen las
 
 ### 2) **Mockup Sentimiento:** 😁
 Implementación de la funcionalidad para analizar el sentimiento de las noticias de las empresas energéticas de América Latina.
+
+ <p align="center">
+  <img width="" height="400" src="images/sentimiento.png" alt="sentimiento">
+</p>
+
 ### 3) **Mockup Predictivo:** 📈
 Desarrollo del modelo de machine learning para predecir el comportamiento de las acciones basado en los datos históricos y actuales.
+ <p align="center">
+  <img width="" height="400" src="images/predictivo.png" alt="predictivo">
+</p>
   
 ## Contenidos del Proyecto 📁
 - 📊 **Dashboard :** Visualización interactiva de los datos financieros en Power BI. Enlace al tablero (aquí incluirás el link).
