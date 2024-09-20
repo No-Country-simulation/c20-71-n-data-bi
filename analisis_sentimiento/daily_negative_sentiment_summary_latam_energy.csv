@@ -1,5 +1,4 @@
 Date,Company,Ticker,Avg_Sentiment,Min_Sentiment,Max_Sentiment,News_Count,Sample_Title
-2024-08-20,vista_energy,VIST,-0.3612,-0.3612,-0.3612,1,"JPMorgan sees upside in Vista Oil & Gas stock, strategic focus on Argentinian shale"
 2024-08-22,cemig,CIG,-0.743,-0.743,-0.743,1,Judge dismisses lawsuit accusing X of discrimination over return-to-work policy
 2024-08-22,vista_energy,VIST,-0.6808,-0.6808,-0.6808,1,"A minimum data set—Core outcome set, core data elements, and core measurement set—For degenerative cervical myelopathy research (AO Spine RECODE DCM): A consensus study"
 2024-08-23,cemig,CIG,-0.2292,-0.2292,-0.2292,1,"Stream It Or Skip It: ‘Stress Positions’ on Hulu, Theda Hammel’s Highly Unconventional LGBTQ+ COVID Satire Starring John Early"
@@ -9,7 +8,7 @@ Date,Company,Ticker,Avg_Sentiment,Min_Sentiment,Max_Sentiment,News_Count,Sample_
 2024-08-26,raizen,RAIZ4.SA,-0.8695666666666666,-0.9694,-0.6815,3,"Fires in Brazil cane fields controlled, damage to sugar crop being assessed"
 2024-08-27,braskem,BAK,-0.9393,-0.9393,-0.9393,1,Pogust Goodhead Issues Statement as BHP Fails to Adequately Address Brazilian Dam Disaster in Year-End Earnings Results
 2024-08-27,raizen,RAIZ4.SA,-0.8807,-0.8807,-0.8807,1,Four arson suspects arrested for setting fires in Brazil farmland: Police
-2024-08-28,vista_energy,VIST,-0.9327666666666667,-0.9806,-0.891,3,Stolen influencer pics used to promote Trump could be 'tip of the iceberg': report
+2024-08-28,vista_energy,VIST,-0.9327666666666667,-0.9806,-0.891,3,'Sickening': Trump post spurs outrage — and new accusations that he broke the law
 2024-08-29,braskem,BAK,-0.6124,-0.6124,-0.6124,1,China Reminds South Korea That Time Isn’t On Its Side
 2024-08-29,geb,GEB.CL,-0.3182,-0.3182,-0.3182,1,Skeptical Science New Research for Week #35 2024
 2024-08-30,braskem,BAK,-0.8519,-0.8519,-0.8519,1,RVFV virulence factor NSs triggers the mitochondrial MCL-1-BAK axis to activate pathogenic NLRP3 pyroptosis
@@ -21,56 +20,54 @@ Date,Company,Ticker,Avg_Sentiment,Min_Sentiment,Max_Sentiment,News_Count,Sample_
 2024-09-05,enel_chile,ENIC,-0.5994,-0.5994,-0.5994,1,Laboratory evidence of the nonresonant streaming instability in the formation of quasiparallel collisionless shocks at high Alfvénic Mach number
 2024-09-06,braskem,BAK,-0.8225,-0.8225,-0.8225,1,Braskem SA faces $5 billion lawsuit over damages
 2024-09-06,cemig,CIG,-0.802,-0.802,-0.802,1,29 Hotel Employees Share Their Most Unforgettable Moments With Guests
-2024-09-06,vale,VALE,-0.392775,-0.5423,-0.1531,4,"Vale, BHP, Samarco could close $18 billion deal over Brazil dam collapse, sources say"
-2024-09-07,vale,VALE,-0.5457,-0.7096,-0.3818,2,Portugal high-security jailbreak sees five inmates escaping by ladder
-2024-09-08,vale,VALE,-0.98,-0.98,-0.98,1,'Very dangerous' British prisoner among five inmates to escape from high-security jail in Portugal
-2024-09-09,vale,VALE,-0.9263666666666667,-0.9854,-0.8353,3,British prisoner among five to escape Portuguese jail
+2024-09-09,vale,VALE,-0.9854,-0.9854,-0.9854,1,Former Fashion Mogul Sentenced to 11 Years For Sexual Abuse
 2024-09-10,braskem,BAK,-0.7783,-0.7783,-0.7783,1,CosmicBeetle steps up: Probation period at RansomHub
 2024-09-10,companhia_paranaense_de_energia,ELP,-0.9719,-0.9719,-0.9719,1,Phycocyanin attenuates skeletal muscle damage and fatigue via modulation of Nrf2 and IRS-1/AKT/mTOR pathway in exercise-induced oxidative stress in rats
 2024-09-10,copel,ELP,-0.9719,-0.9719,-0.9719,1,Phycocyanin attenuates skeletal muscle damage and fatigue via modulation of Nrf2 and IRS-1/AKT/mTOR pathway in exercise-induced oxidative stress in rats
 2024-09-10,geb,GEB.CL,-0.8979,-0.8979,-0.8979,1,Bogotá Adds Risk of Power Cuts to Its Months-Long Water Shortage
-2024-09-10,petrobras,PBR,-0.35150000000000003,-0.4767,-0.2263,2,"Petrobras, Shell Partnership Bags 26 Pelotas Basin Concession Contracts"
+2024-09-10,petrobras,PBR,-0.4767,-0.4767,-0.4767,1,CFRA downgrades SLB stock to Hold rating with reduced price target
 2024-09-10,vale,VALE,-0.1027,-0.1027,-0.1027,1,"Apple tax bonanza hands Ireland political, reputational headache"
 2024-09-11,braskem,BAK,-0.3612,-0.3612,-0.3612,1,Oil Giant ADNOC Set to Make Formal $16-Billion Offer for Covestro
-2024-09-11,companhia_siderurgica_nacional,SID,-0.8464499999999999,-0.8779,-0.815,2,Texas is Running Out of Water
-2024-09-11,vale,VALE,-0.7638,-0.802,-0.7256,2,Ireland wonders how to spend Apple’ back tax bonanza
+2024-09-11,vale,VALE,-0.7638,-0.802,-0.7256,2,List of victims on 9/11/2001. Lest we forget!
 2024-09-12,braskem,BAK,-0.8271,-0.8271,-0.8271,1,Police investigating e-commerce platform Qoo10 over payment delays to vendors
 2024-09-12,geb,GEB.CL,-0.1655,-0.1655,-0.1655,1,Skeptical Science New Research for Week #37 2024
-2024-09-12,vale,VALE,-0.57485,-0.8957,-0.296,6,[EU] Season of Discovery Hotfixes - 11 September
+2024-09-12,vale,VALE,-0.57485,-0.8957,-0.296,6,[US] Season of Discovery Hotfixes - September 11
 2024-09-13,braskem,BAK,-0.5214,-0.5214,-0.5214,1,Lock out SIRT4
 2024-09-13,companhia_siderurgica_nacional,SID,-0.886,-0.886,-0.886,1,"The Story Of Rosemarie Fritzl, The Former Wife Of Josef Fritzl — And Whether She Knew About Her Daughter’s Captivity"
-2024-09-13,pampa_energia,PAM,-0.26806,-0.5267,-0.0772,5,IRL Workplaces Are Under the Spell of TikTok's Office Sirens
 2024-09-13,petrobras,PBR,-0.431,-0.6597,-0.2023,2,Monsters Mini Pack by Valeria Miller
 2024-09-13,vale,VALE,-0.6551,-0.7835,-0.5267,2,"Manchester City x Brentford: onde assistir, escalações, arbitragem"
 2024-09-13,ypf,YPF,-0.2732,-0.2732,-0.2732,1,Latin America Is Rewriting the Rules and Spooking Investors
-2024-09-14,aes_andes,AES,-0.8,-0.9403,-0.6597,2,Pfizer's BRAFTOVI ® + MEKTOVI ® Shows Long-Term Clinically Meaningful Response in Patients with BRAF V600E-Mutant Metastatic Non-Small Cell Lung Cancer
-2024-09-14,companhia_siderurgica_nacional,SID,-0.66455,-0.9459,-0.3832,2,"PC Games 10/24: Mit Coverstory zu Civilization 7, Preview zu Kingdom Come: Deliverance 2, Test zu Star Wars Outlaws u. a."
-2024-09-14,pampa_energia,PAM,-0.1779,-0.1779,-0.1779,1,Capehart: ‘Frightening’ Half of the Country Is Buying What Trump Is Selling
+2024-09-14,aes_andes,AES,-0.8,-0.9403,-0.6597,2,Merck's KEYTRUDA ® (pembrolizumab) Plus Chemoradiotherapy (CRT) Reduced Risk of Death by 33% Versus CRT Alone in Patients With Newly Diagnosed High-Risk Locally Advanced Cervical Cancer
+2024-09-14,companhia_siderurgica_nacional,SID,-0.66455,-0.9459,-0.3832,2,"Top 10 Friday Night SmackDown moments: WWE Top 10, Sept. 13, 2024"
 2024-09-14,vale,VALE,-0.9735,-0.9735,-0.9735,1,Grieving families and traumatised crash survivors plead for action on the Bruce Highway
-2024-09-15,aes_andes,AES,-0.8292,-0.9001,-0.7184,4,KEYTRUDA ® (pembrolizumab) Plus Chemotherapy Before Surgery and Continued as Single Agent After Surgery Reduced Risk of Death by More Than One-Third (34%) Versus Neoadjuvant Chemotherapy in High-Risk
+2024-09-15,aes_andes,AES,-0.8292,-0.9001,-0.7184,4,Stepwise selection of variables in regression is Evil
 2024-09-15,companhia_siderurgica_nacional,SID,-0.128,-0.128,-0.128,1,I'm Worried That Civilization 7 Is Missing The Point Of The Civilization Franchise
-2024-09-15,pampa_energia,PAM,-0.7779714285714286,-0.9595,-0.3252,7,"Vance: Media, Harris Campaign Have Been 'Calling the Residents of Springfield Racists'"
-2024-09-16,aes_andes,AES,-0.9114249999999999,-0.9761,-0.7603,4,Linux kernel 6.11 is out - with its own BSOD
+2024-09-15,pampa_energia,PAM,-0.9595,-0.9595,-0.9595,2,"Dem Rep. Crockett: MAGA Is a Domestic Threat, Trump Is Stoking Them"
+2024-09-16,aes_andes,AES,-0.9114249999999999,-0.9761,-0.7603,4,Darolutamide plus androgen deprivation therapy significantly reduced the risk of radiological progression or death by 46% compared to placebo plus ADT in patients with metastatic hormone-sensitive pro
 2024-09-16,braskem,BAK,-0.4939,-0.4939,-0.4939,1,"Hacker Claims Breach of UK’s Experience Engine, Data Sold Online"
-2024-09-16,companhia_siderurgica_nacional,SID,-0.505375,-0.7783,-0.1779,4,"Vulnerability Summary for the Week of September 9, 2024"
-2024-09-16,ecopetrol,EC,-0.58225,-0.7783,-0.1531,4,Anti-EC Demo: Social Media Backlash Against NDC
+2024-09-16,companhia_siderurgica_nacional,SID,-0.505375,-0.7783,-0.1779,4,Otherwise Lost
 2024-09-16,pampa_energia,PAM,-0.9142142857142856,-0.9674,-0.7599,7,Sister desperate to bring brother's cold case killer to justice
-2024-09-16,vale,VALE,-0.7943000000000001,-0.936,-0.5719,3,A Look into August 2024 Destruction in EVE Online – The Catch Invasion Edition
+2024-09-16,vale,VALE,-0.7943000000000001,-0.936,-0.5719,3,Wales and Chelsea's Ingle suffers serious knee injury
 2024-09-17,aes_andes,AES,-0.9501,-0.9501,-0.9501,1,FDA approves Novartis Kisqali® to reduce risk of recurrence in people with HR+/HER2- early breast cancer
 2024-09-17,centrais_eletricas_brasileiras,EBR,-0.5267,-0.5267,-0.5267,1,"Jefferies cuts D'Ieteren Group stock target, downgrades to Hold rating"
-2024-09-17,companhia_siderurgica_nacional,SID,-0.77475,-0.9129,-0.4019,4,"Edgar Barrera, Karol G, and Bad Bunny Lead 2024 Latin Grammy Nominations"
-2024-09-17,ecopetrol,EC,-0.29900000000000004,-0.6908,-0.1027,10,株式会社イーシーキューブとアマゾンが更なる協業体制強化
+2024-09-17,companhia_siderurgica_nacional,SID,-0.77475,-0.9129,-0.4019,4,"Latin Grammy Nominations 2024: Edgar Barrera Leads List With 9, Followed By Karol G and Bad Bunny"
+2024-09-17,ecopetrol,EC,-0.3299333333333333,-0.6908,-0.1027,6,Ghana 2024 election: Is the peace pact in jeopardy?
 2024-09-17,eletrobras,EBR,-0.5267,-0.5267,-0.5267,1,"Jefferies cuts D'Ieteren Group stock target, downgrades to Hold rating"
 2024-09-17,geb,GEB.CL,-0.975,-0.975,-0.975,1,Distribution and habitat use patterns of the endangered Central American clouded oncilla (Leopardus pardinoides oncilla) in Costa Rica
-2024-09-17,pampa_energia,PAM,-0.7911,-0.9864,-0.1901,8,Hillary Clinton: Trump's 'Politics of Hate and Division' Puts America's Security in Danger
-2024-09-17,petrobras,PBR,-0.49435,-0.886,-0.1027,2,Tech Tuesdays: Product Discovery Challenges + the Woes of Returns
-2024-09-17,vale,VALE,-0.7769666666666666,-0.8885,-0.2732,6,CBA predicts further 13% drop in iron ore price
-2024-09-18,aes_andes,AES,-0.6047857142857144,-0.9652,-0.0516,7,Analysis: Al Qaeda strikes the Malian capital
+2024-09-17,pampa_energia,PAM,-0.7911,-0.9864,-0.1901,8,"Her Daughter’s Gen X Boyfriend Did Something Brave For Her After Someone Poured Wine On Her At A Wedding, But She’s Confused Why He Didn’t Do More"
+2024-09-17,petrobras,PBR,-0.49435,-0.886,-0.1027,2,Big Agribusiness: A Look at Brazil’s Disastrous Rural Feudalism
+2024-09-17,vale,VALE,-0.7769666666666666,-0.8885,-0.2732,6,"Latin Grammy Nominations 2024: Edgar Barrera Leads List With 9, Followed By Karol G and Bad Bunny"
+2024-09-18,aes_andes,AES,-0.6047857142857144,-0.9652,-0.0516,7,Break free from monthly fees with FileJump’s one-time storage deal
 2024-09-18,companhia_paranaense_de_energia,ELP,-0.9328,-0.9328,-0.9328,1,Targeting ferroptosis with the lipoxygenase inhibitor PTC-041 as a therapeutic strategy for the treatment of Parkinson’s disease
-2024-09-18,companhia_siderurgica_nacional,SID,-0.81145,-0.9524,-0.6705,2,Hollywood Legends Suffer Horrid Death and Injuries at Fault of MGM Studios: On-Set Nightmares Exposed
+2024-09-18,companhia_siderurgica_nacional,SID,-0.81145,-0.9524,-0.6705,2,"Video: ""Outside"" - Official Trailer - Netflix"
 2024-09-18,copel,ELP,-0.9328,-0.9328,-0.9328,1,Targeting ferroptosis with the lipoxygenase inhibitor PTC-041 as a therapeutic strategy for the treatment of Parkinson’s disease
 2024-09-18,ecopetrol,EC,-0.6873,-0.926,-0.25,8,アサヒ飲料がクラウドEC構築プラットフォーム「メルカート」を採用　ウイスキー樽で熟成させた薫り高いコーヒー豆のEC販売をスタート
-2024-09-18,light,LGSXY,-0.5557357142857142,-0.9796,-0.0187,28,Matte Metallic Silver Upgrades The Nike Air Max Scorpion
-2024-09-18,pampa_energia,PAM,-0.6324,-0.7096,-0.5267,3,MSNBC's Reid: Trump Blaming Dems for Assassination Attempts Is the Definition of 'Gaslighting'
+2024-09-18,pampa_energia,PAM,-0.694275,-0.8799,-0.5267,4,"Senators, Reps donate N174m to Borno flood victims"
 2024-09-18,petrobras,PBR,-0.0772,-0.0772,-0.0772,1,Worn Industrial Surfaces Superpack by Shaded Spectrum
-2024-09-18,vale,VALE,-0.5569,-0.8442,-0.2023,4,"Police Make Major Breakthrough In Asha Degree Case, 9-Year-Old Who Vanished 24 Years Ago"
+2024-09-18,vale,VALE,-0.5569,-0.8442,-0.2023,4,Weird little guys who lie on Special Form 86
+2024-09-19,companhia_siderurgica_nacional,SID,-0.53728,-0.8759,-0.0258,5,Fed chair Powell says illegals are why unemployment is rising
+2024-09-19,ecopetrol,EC,-0.7231285714285713,-0.9612,-0.0516,7,SBC to Sell Nashville Headquarters to Cover Cost of Abuse Cases
+2024-09-19,geb,GEB.CL,-0.4449,-0.4449,-0.4449,1,Teamsters Pave the Way for Trump
+2024-09-19,light,LGSXY,-0.5861826086956522,-0.9744,-0.0644,23,Some users really hate iOS 18’s revamped Photos app
+2024-09-19,pampa_energia,PAM,-0.48877999999999994,-0.9245,-0.0516,5,Going Linux #460 · Listener Feedback
+2024-09-19,vale,VALE,-0.7790333333333334,-0.8957,-0.5859,3,How Trump and Elon Musk Teamed Up Against Worker Rights
