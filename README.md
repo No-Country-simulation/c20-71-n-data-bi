@@ -152,7 +152,7 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
 
 
 ## Etapas del Proyecto 🚀  
-### 1) **Mockup Técnico:** 🔨 
+### 1) **Parte Técnica: Diagrama del proceso ETL** 🔨 
 Diseño inicial y planteamiento técnico del sistema de extracción, almacenamiento y visualización de los datos financieros.
   <p align="center">
   <img width="" height="400" src="images/ETL.png" alt="ETL">
@@ -178,25 +178,27 @@ Los datos extraídos de Yahoo Finance para cada empresa energética incluyen las
 
 - **Stock Split:** Desdoblamiento de acciones. Cuando una empresa realiza un split de sus acciones (por ejemplo, 2 por 1), se indica en esta columna. Un "split" significa que las acciones se dividen, lo cual no cambia el valor total de la inversión, pero ajusta el precio por acción.
 
-### 2) **Mockup Sentimiento:** 😁
+### 2) **Parte Sentimiento: Flujo de Análisis de Sentimiento de Noticias utilizando API de News hasta el Deploy** 😁
 Implementación de la funcionalidad para analizar el sentimiento de las noticias de las empresas energéticas de América Latina.
 
  <p align="center">
   <img width="" height="400" src="images/sentimiento.png" alt="sentimiento">
 </p>
 
-### 3) **Mockup Predictivo:** 📈
+### 3) **Parte Predictivo: Arquitectura de pipeline de datos hasta despliegue del modelo** 📈
 Desarrollo del modelo de machine learning para predecir el comportamiento de las acciones basado en los datos históricos y actuales.
  <p align="center">
   <img width="" height="400" src="images/predictivo.png" alt="predictivo">
 </p>
   
 ## Contenidos del Proyecto 📁
-- 📊 **Dashboard :** Visualización interactiva de los datos financieros en Power BI. Enlace al tablero (aquí incluirás el link).
+- 📊 **Dashboard :** Visualización interactiva de los datos financieros en Power BI. [Dashboard](https://github.com/No-Country-simulation/c20-71-n-data-bi/blob/f0e4626d4383c2376c7069ce74a0af86867f852a/Dashboard/Data-BI-Project-Power-BI.pdf)
 - 🤖 **Desplegamiento:** Modelo de Machine Learning y de Análisis de sentimiento desplegados en Streamlit. Link:
  [Streamlit](https://c20-71-n-data-bi-mbjwns5g9t7ex9txnnjw8p.streamlit.app)
   
-- 📂**Data :** Acceso al dataset utilizado para el análisis financiero. Enlace al dataset.(aquí incluirás el link).
-- 📑**Presentación:** Presentación del proyecto en PowerPoint. Enlace a la presentación. (aquí incluirás el link).
+- 📂**Datasets:** Acceso al dataset utilizado para el análisis financiero. Enlace al dataset. [Datasets](https://github.com/No-Country-simulation/c20-71-n-data-bi/tree/f0e4626d4383c2376c7069ce74a0af86867f852a/datasets)
+- 📂**Datasets-sentimiento:** Acceso al dataset utilizado para el análisis financiero. Enlace al dataset. [DatasetsSentimiento](https://github.com/No-Country-simulation/c20-71-n-data-bi/tree/f0e4626d4383c2376c7069ce74a0af86867f852a/c20-71-n-data-bi/docker-airflow-dag/datasets)
+- 📑**Presentación:** Presentación del proyecto en PowerPoint. Enlace a la presentación. [Presentacion](https://github.com/No-Country-simulation/c20-71-n-data-bi/blob/f0e4626d4383c2376c7069ce74a0af86867f852a/Presentacion%20de%20Proyecto/Proyecto.pdf)
+
 
 
