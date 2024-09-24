@@ -201,4 +201,7 @@ Desarrollo del modelo de machine learning para predecir el comportamiento de las
 - 📑**Presentación:** Presentación del proyecto en PowerPoint. Enlace a la presentación. [Presentacion](https://github.com/No-Country-simulation/c20-71-n-data-bi/blob/f0e4626d4383c2376c7069ce74a0af86867f852a/Presentacion%20de%20Proyecto/Proyecto.pdf)
 
 
-
+## Licencia
+Este proyecto está licenciado bajo la Licencia Apache, Versión 2.0. Puedes obtener una copia de la licencia en
+http://www.apache.org/licenses/LICENSE-2.0
+A menos que lo requiera la ley aplicable o se acuerde por escrito, el software distribuido bajo la Licencia se distribuye "TAL CUAL", SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ya sean expresas o implícitas. Consulte la Licencia para conocer los permisos específicos de gobierno del idioma y las limitaciones bajo la Licencia.
