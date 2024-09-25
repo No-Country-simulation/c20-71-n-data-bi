@@ -3,11 +3,13 @@ import datetime
 import os
 import sys
 import pandas as pd
-sys.path.append(os.getcwd())
 
-# Verifica si existe una carpeta 'datasets', si no existe la crea
-if not os.path.exists('datasets/'):
-    os.makedirs('datasets/')
+# Establecer la ruta relativa para los datasets
+dataset_path = os.path.join('datasets', 'dataset_webscraping')
+
+# Crear la carpeta si no existe
+if not os.path.exists(dataset_path):
+    os.makedirs(dataset_path)
 
 def download_historical_data(ticker, start_date, end_date, output):
     # Crea el ticker
@@ -21,7 +23,7 @@ def download_historical_data(ticker, start_date, end_date, output):
     
     # Guarda el dataset en formato CSV
     df.to_csv(output, index=False)
-    
+
 # Diccionario de nombres de empresas con su símbolo en NYSE
 tickers_dict = {
     'ypf': 'YPF',  # Argentina - Petróleo y gas
@@ -66,7 +68,7 @@ all_historical_data = pd.DataFrame()
 
 # Ciclo para iterar sobre todas las empresas
 for key, ticker in tickers_dict.items():
-    output_file = f'datasets/{key}_historical_data.csv'
+    output_file = os.path.join(dataset_path, f'{key}_historical_data.csv')
     try:
         download_historical_data(ticker, start_date, end_date, output_file)
         print(f'Se ha guardado el dataset de {key}')
@@ -79,7 +81,7 @@ for key, ticker in tickers_dict.items():
         print(f'Error al descargar datos de {key}: {str(e)}')
 
 # Guardar todos los datos históricos en un solo archivo CSV
-all_historical_data.to_csv('datasets/latam_energy_stock_data.csv', index=False)
+all_historical_data.to_csv(os.path.join(dataset_path, 'latam_energy_stock_data.csv'), index=False)
 
 print(f'Datos actualizados hasta: {end_date}')
-print(f'Se ha guardado el dataset completo en datasets/latam_energy_stock_data.csv')
+print(f'Se ha guardado el dataset completo en {os.path.join(dataset_path, "latam_energy_stock_data.csv")}')

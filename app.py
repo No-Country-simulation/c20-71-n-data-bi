@@ -5,6 +5,7 @@ import seaborn as sns
 from PIL import Image
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+import os
 
 # Configuración de la página
 st.set_page_config(page_title="Análisis de Sentimiento y Modelo Predictivo - Energía LATAM", layout="wide")
@@ -12,10 +13,10 @@ st.set_page_config(page_title="Análisis de Sentimiento y Modelo Predictivo - En
 # Carga de datos
 @st.cache_data
 def load_data():
-    correlations = pd.read_csv('analisis_sentimiento/negative_sentiment_stock_correlations_latam_energy.csv')
-    daily_sentiment = pd.read_csv('analisis_sentimiento/daily_negative_sentiment_summary_latam_energy.csv')
-    stock_data = pd.read_csv('datasets/latam_energy_stock_data.csv')
-    predicciones = pd.read_csv('predicciones.csv')
+    correlations = pd.read_csv(os.path.join('datasets', 'dataset_sentimiento', 'negative_sentiment_stock_correlations_latam_energy.csv'))
+    daily_sentiment = pd.read_csv(os.path.join('datasets', 'dataset_sentimiento', 'daily_negative_sentiment_summary_latam_energy.csv'))
+    stock_data = pd.read_csv(os.path.join('datasets', 'dataset_webscraping', 'latam_energy_stock_data.csv'))
+    predicciones = pd.read_csv(os.path.join('datasets', 'predicciones', 'predicciones.csv'))
     return correlations, daily_sentiment, stock_data, predicciones
 
 correlations, daily_sentiment, stock_data, predicciones = load_data()
@@ -31,7 +32,7 @@ if page == "Resumen Análisis de Sentimiento":
     
     # Mostrar gráfico de correlaciones
     st.subheader("Correlaciones entre Sentimiento Negativo y Cambio % Diario de Acciones")
-    correlation_chart = Image.open('analisis_sentimiento/negative_correlations_bar_chart_latam_energy.png')
+    correlation_chart = Image.open(os.path.join('datasets', 'dataset_sentimiento', 'negative_correlations_bar_chart_latam_energy.png'))
     st.image(correlation_chart, use_column_width=True)
     
     # Estadísticas globales
