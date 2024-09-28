@@ -1,184 +1,202 @@
 Date,Company,Ticker,Sentiment,Title
-2024-08-26,raizen,RAIZ4.SA,-0.6815,"Fires in Brazil cane fields controlled, damage to sugar crop being assessed"
-2024-08-26,raizen,RAIZ4.SA,-0.9578,Three arson suspects arrested for setting fires in Brazil farmland
-2024-08-26,raizen,RAIZ4.SA,-0.9694,Three arson suspects arrested for setting fires in Brazil farmland
-2024-08-26,cemig,CIG,-0.1027,"Lady Gaga's ""Die With A Smile"" Dance"
-2024-08-27,raizen,RAIZ4.SA,-0.8807,Four arson suspects arrested for setting fires in Brazil farmland: Police
-2024-08-27,braskem,BAK,-0.9393,Pogust Goodhead Issues Statement as BHP Fails to Adequately Address Brazilian Dam Disaster in Year-End Earnings Results
-2024-08-28,vista_energy,VIST,-0.891,Stolen influencer pics used to promote Trump could be 'tip of the iceberg': report
-2024-08-28,vista_energy,VIST,-0.9267,'This story is from Mississippi': PA Democrats pounce as rival conflates Philadelphias
-2024-08-28,vista_energy,VIST,-0.9806,'Sickening': Trump post spurs outrage — and new accusations that he broke the law
 2024-08-29,geb,GEB.CL,-0.3182,Skeptical Science New Research for Week #35 2024
 2024-08-29,braskem,BAK,-0.6124,China Reminds South Korea That Time Isn’t On Its Side
 2024-08-30,cemig,CIG,-0.8063,The best memes about Keir Starmer’s proposed smoking ban
 2024-08-30,braskem,BAK,-0.8519,RVFV virulence factor NSs triggers the mitochondrial MCL-1-BAK axis to activate pathogenic NLRP3 pyroptosis
 2024-09-02,cemig,CIG,-0.8591,Putin warns students about vapes
 2024-09-03,braskem,BAK,-0.9371,Norovirus-mediated translation repression promotes macrophage cell death
-2024-09-05,enel_chile,ENIC,-0.5994,Laboratory evidence of the nonresonant streaming instability in the formation of quasiparallel collisionless shocks at high Alfvénic Mach number
 2024-09-05,braskem,BAK,-0.9657,Centrosome amplification primes ovarian cancer cells for apoptosis and potentiates the response to chemotherapy
+2024-09-05,enel_chile,ENIC,-0.5994,Laboratory evidence of the nonresonant streaming instability in the formation of quasiparallel collisionless shocks at high Alfvénic Mach number
 2024-09-05,cemig,CIG,-0.932,Teenage E-Cigarette Use Drops to a 10-Year Low
-2024-09-06,braskem,BAK,-0.8225,Braskem SA faces $5 billion lawsuit over damages
 2024-09-06,cemig,CIG,-0.802,29 Hotel Employees Share Their Most Unforgettable Moments With Guests
+2024-09-06,braskem,BAK,-0.8225,Braskem SA faces $5 billion lawsuit over damages
 2024-09-10,geb,GEB.CL,-0.8979,Bogotá Adds Risk of Power Cuts to Its Months-Long Water Shortage
-2024-09-10,braskem,BAK,-0.7783,CosmicBeetle steps up: Probation period at RansomHub
 2024-09-10,copel,ELP,-0.9719,Phycocyanin attenuates skeletal muscle damage and fatigue via modulation of Nrf2 and IRS-1/AKT/mTOR pathway in exercise-induced oxidative stress in rats
 2024-09-10,companhia_paranaense_de_energia,ELP,-0.9719,Phycocyanin attenuates skeletal muscle damage and fatigue via modulation of Nrf2 and IRS-1/AKT/mTOR pathway in exercise-induced oxidative stress in rats
+2024-09-10,braskem,BAK,-0.7783,CosmicBeetle steps up: Probation period at RansomHub
 2024-09-11,braskem,BAK,-0.3612,Oil Giant ADNOC Set to Make Formal $16-Billion Offer for Covestro
 2024-09-12,braskem,BAK,-0.8271,Police investigating e-commerce platform Qoo10 over payment delays to vendors
 2024-09-12,geb,GEB.CL,-0.1655,Skeptical Science New Research for Week #37 2024
-2024-09-13,petrobras,PBR,-0.2023,Monsters Mini Pack by Valeria Miller
 2024-09-13,braskem,BAK,-0.5214,Lock out SIRT4
-2024-09-13,petrobras,PBR,-0.6597,How Significant is Pakistan's Oil Discovery?
 2024-09-13,ypf,YPF,-0.2732,Latin America Is Rewriting the Rules and Spooking Investors
 2024-09-16,braskem,BAK,-0.4939,"Hacker Claims Breach of UK’s Experience Engine, Data Sold Online"
-2024-09-17,vale,VALE,-0.8885,Brazil confirms potential $18 bln deal with miners involved in deadly dam disaster
 2024-09-17,geb,GEB.CL,-0.975,Distribution and habitat use patterns of the endangered Central American clouded oncilla (Leopardus pardinoides oncilla) in Costa Rica
-2024-09-17,petrobras,PBR,-0.1027,Big Agribusiness: A Look at Brazil’s Disastrous Rural Feudalism
 2024-09-17,centrais_eletricas_brasileiras,EBR,-0.5267,"Jefferies cuts D'Ieteren Group stock target, downgrades to Hold rating"
 2024-09-17,petrobras,PBR,-0.886,Tech Tuesdays: Product Discovery Challenges + the Woes of Returns
-2024-09-17,vale,VALE,-0.8885,"Latin Grammy Nominations 2024: Edgar Barrera Leads List With 9, Followed By Karol G and Bad Bunny"
-2024-09-17,vale,VALE,-0.2732,EA Sports unveils 117-song soundtrack for football game FC 25
-2024-09-17,vale,VALE,-0.8885,Brazil Confirms Potential $18B Deal With Miners Involved in Deadly Dam Disaster
+2024-09-17,petrobras,PBR,-0.1027,Big Agribusiness: A Look at Brazil’s Disastrous Rural Feudalism
 2024-09-17,eletrobras,EBR,-0.5267,"Jefferies cuts D'Ieteren Group stock target, downgrades to Hold rating"
-2024-09-18,vale,VALE,-0.2023,Weird little guys who lie on Special Form 86
-2024-09-18,petrobras,PBR,-0.0772,Worn Industrial Surfaces Superpack by Shaded Spectrum
-2024-09-18,vale,VALE,-0.8442,Man received 'gut-wrenching' diagnosis 20 years after getting infection from tattoo without knowing
-2024-09-18,vale,VALE,-0.6705,Couhig's deal to buy Reading falls through
-2024-09-18,vale,VALE,-0.5106,"Police Make Major Breakthrough In Asha Degree Case, 9-Year-Old Who Vanished 24 Years Ago"
-2024-09-18,companhia_siderurgica_nacional,SID,-0.6705,"Video: ""Outside"" - Official Trailer - Netflix"
-2024-09-18,aes_andes,AES,-0.6369,JPMorgan maintains AES Overweight rating with $29 target
-2024-09-18,aes_andes,AES,-0.8225,Analysis: Al Qaeda strikes the Malian capital
-2024-09-18,aes_andes,AES,-0.9652,Immediate efficacy of auricular acupuncture combined with active exercise in the treatment of acute lumbar sprains in 10 minutes: Protocol of a randomized controlled trial
-2024-09-18,copel,ELP,-0.9328,Targeting ferroptosis with the lipoxygenase inhibitor PTC-041 as a therapeutic strategy for the treatment of Parkinson’s disease
-2024-09-18,companhia_siderurgica_nacional,SID,-0.9524,Hollywood Legends Suffer Horrid Death and Injuries at Fault of MGM Studios: On-Set Nightmares Exposed
 2024-09-18,companhia_paranaense_de_energia,ELP,-0.9328,Targeting ferroptosis with the lipoxygenase inhibitor PTC-041 as a therapeutic strategy for the treatment of Parkinson’s disease
-2024-09-19,aes_andes,AES,-0.9708,Jihadist attack in Mali capital killed more than 70: security sources
-2024-09-19,aes_andes,AES,-0.5994,Cybin Provides Corporate Update on Upcoming Clinical Milestones
-2024-09-19,companhia_siderurgica_nacional,SID,-0.8759,Fed chair Powell says illegals are why unemployment is rising
-2024-09-19,companhia_siderurgica_nacional,SID,-0.296,Going Linux #460 · Listener Feedback
-2024-09-19,companhia_siderurgica_nacional,SID,-0.743,"Netflix Unveils ""Blood Line: A Rebel Moon Game"" and More at Geeked Week 2024"
-2024-09-19,companhia_siderurgica_nacional,SID,-0.7457,‘Killing Eve’ Producer Heading To Roughcut
-2024-09-19,aes_andes,AES,-0.9645,Jihadist Attack In Mali Capital Killed More Than 70: Security Sources
-2024-09-19,vale,VALE,-0.7845,Plan for taxi drivers to carry stab wound bandages
-2024-09-19,companhia_siderurgica_nacional,SID,-0.0258,Gnome freezes while opening if WiFi is not connected
-2024-09-19,vale,VALE,-0.8555,How Trump and Elon Musk Teamed Up Against Worker Rights
+2024-09-18,petrobras,PBR,-0.0772,Worn Industrial Surfaces Superpack by Shaded Spectrum
+2024-09-18,copel,ELP,-0.9328,Targeting ferroptosis with the lipoxygenase inhibitor PTC-041 as a therapeutic strategy for the treatment of Parkinson’s disease
 2024-09-19,geb,GEB.CL,-0.4449,Teamsters Pave the Way for Trump
-2024-09-19,vale,VALE,-0.8957,Prime minister urged to chip in $1b to fix 'broken' highway as death toll rises
-2024-09-19,vale,VALE,-0.5859,Eyesight fears as hospital delays hit record high
-2024-09-20,companhia_siderurgica_nacional,SID,-0.5267,Middlefield Canadian Income PCC - Half-year report
-2024-09-20,companhia_siderurgica_nacional,SID,-0.8402,Is Trump’s Whole Political Career Just a Cockeyed Revenge Plot Against the NFL?
-2024-09-20,companhia_siderurgica_nacional,SID,-0.7184,Bleeding Cool Presents: Image Comics Full December 2024 Solicits
-2024-09-20,companhia_siderurgica_nacional,SID,-0.9393,Lux Living owners indicted on fraud charges alleging minority hiring scheme
 2024-09-20,companhia_siderurgica_nacional,SID,-0.9393,Lux Living owners indicted on minority hiring fraud charges
 2024-09-20,companhia_siderurgica_nacional,SID,-0.9867,US Soft Intervention in One of The World’s Hardest Conflicts
-2024-09-20,pampa_energia,PAM,-0.743,B.C. MP says he was 'pushed' by a Parliament Hill protester
-2024-09-20,aes_andes,AES,-0.8176,Jihadist airport assault leaves Mali's junta rattled
-2024-09-20,vale,VALE,-0.6408,Sala dei trofei: Green Room (400 LIVE #246)
-2024-09-20,vale,VALE,-0.7184,Bleeding Cool Presents: Image Comics Full December 2024 Solicits
-2024-09-20,vale,VALE,-0.4927,"""A true believer, sharp as a knife, heart of gold."" A tribute to Michelle Kerr, the ass-kicking, passionate PR legend who helped shape modern metal as we know it"
-2024-09-20,aes_andes,AES,-0.8176,Jihadist airport assault leaves Mali's junta rattled
-2024-09-20,aes_andes,AES,-0.8524,The Loudness War
-2024-09-20,aes_andes,AES,-0.9169,Russia and African state discuss combating terrorism
-2024-09-20,aes_andes,AES,-0.2263,Corbus stock reiterates Outperform rating despite trial data
-2024-09-21,vale,VALE,-0.9618,Worker who mistakenly sent abuse to customer wins unfair dismissal claim
-2024-09-21,ecopetrol,EC,-0.8979,AOC's office tagged with 'blood-splattered signs' after she calls out Israel over pager attack
-2024-09-21,pampa_energia,PAM,-0.9485,NYT's Haberman: Trump 'Is on Edge' After Assassination Attempts -- He Feels 'Under Siege'
+2024-09-20,companhia_siderurgica_nacional,SID,-0.9393,Lux Living owners indicted on fraud charges alleging minority hiring scheme
+2024-09-20,companhia_siderurgica_nacional,SID,-0.7184,Bleeding Cool Presents: Image Comics Full December 2024 Solicits
+2024-09-20,companhia_siderurgica_nacional,SID,-0.5267,Middlefield Canadian Income PCC - Half-year report
+2024-09-20,companhia_siderurgica_nacional,SID,-0.8402,Is Trump’s Whole Political Career Just a Cockeyed Revenge Plot Against the NFL?
 2024-09-21,companhia_siderurgica_nacional,SID,-0.9361,LAWLESS KINGDOM: A Rape Is Reported Every Hour in London
-2024-09-22,pampa_energia,PAM,-0.6808,Theme Park Asks Guests to Voluntarily Get into Coffins
 2024-09-22,companhia_siderurgica_nacional,SID,-0.296,403-Powered 1990 Chevrolet Corvette ZR-1 at No Reserve
 2024-09-22,companhia_siderurgica_nacional,SID,-0.5411,8 Best New Horror Movies on Netflix in October 2024
-2024-09-22,pampa_energia,PAM,-0.891,Eagles Star Being Evaluated For Concussion Following Apparent Injury vs Saints
-2024-09-22,pampa_energia,PAM,-0.8354,Cotton: Biden-Harris Admin Pressuring Only Israel Likely 'Prolonging the Fighting'
-2024-09-22,ecopetrol,EC,-0.9062,Oklahoma has QB questions after big loss to Tennessee | College Football Power Hour
-2024-09-22,pampa_energia,PAM,-0.836,"Fetterman: No One Listens to JD Vance, He Says ‘Dumb Things,’ ‘Pointless Things"
-2024-09-22,pampa_energia,PAM,-0.9246,"Fetterman: No One Listens to JD Vance, He Says 'Dumb Things,' 'Pointless Things'"
-2024-09-22,pampa_energia,PAM,-0.4215,"7 Halifax mayoral candidates debate homelessness, food insecurity, accessibility"
-2024-09-22,vale,VALE,-0.9348,TODAY ONLY: 99c for Molly Molloy & the Angel of Death by Maria Vale
-2024-09-23,pampa_energia,PAM,-0.1511,McCaskill: Trump 'Can't Put Three Sentences Together About His Policies'
-2024-09-23,vale,VALE,-0.1406,Teens ditch muck-up day for wholesome 'senior sunrise' to mark the end of high school
-2024-09-23,vale,VALE,-0.1027,Man's Reaction to Learning He's About To Be a Dad—for 4th Time in 5 Years
-2024-09-23,pampa_energia,PAM,-0.4215,Brinkley: 'Doomsday Scenario if Trump Gets In — People Better Wake Up'
-2024-09-23,pampa_energia,PAM,-0.2263,"PNLDC1 catalysis and postnatal germline function are required for piRNA trimming, LINE1 silencing, and spermatogenesis in mice"
-2024-09-23,pampa_energia,PAM,-0.9287,Prosecutors say suspect in Trump shooting attempt wrote a letter detailing his plans
-2024-09-23,pampa_energia,PAM,-0.7003,Is Jake Paul Entering His Post Problem-Child Era?
-2024-09-23,pampa_energia,PAM,-0.5267,New Ryan Coogler Movie Starring Michael B. Jordan Unveils Title
-2024-09-23,pampa_energia,PAM,-0.0624,32 Times Michael Scott Wasn't The Problem In The Office
-2024-09-23,companhia_siderurgica_nacional,SID,-0.6597,"""What Are You Teaching To Kids?"" Ex-Pak Star To PCB After India's Test Win"
 2024-09-23,companhia_siderurgica_nacional,SID,-0.8957,"CLOWN On SLIPKNOT's Lineup Changes Over The Years: ""We're Not That Close Anymore"""
-2024-09-23,companhia_siderurgica_nacional,SID,-0.7096,"Vulnerability Summary for the Week of September 16, 2024"
-2024-09-23,ecopetrol,EC,-0.0572,European Commission Announces Antitrust Inspections of Unnamed Financial Services Companies
-2024-09-23,ecopetrol,EC,-0.0572,European Commission Announces Antitrust Inspections of Unnamed Financial Services Companies
-2024-09-23,ecopetrol,EC,-0.34,"Sopra Steria Group: Weekly Disclosure of Transactions in Own Shares from September 16th to September 20th, 2024"
-2024-09-23,ecopetrol,EC,-0.6249,Not on the right rung for me? How status inconsistency leads to avoidance of status-threatening ties in NCAA
-2024-09-23,ecopetrol,EC,-0.7845,"HIV and hepatitis C virus infection and co-infection among trans women in San Francisco, 2020"
-2024-09-23,ecopetrol,EC,-0.9531,Breaking the silence of female genital schistosomiasis in Ghana’s health system: A case of health workers within the FAST project
-2024-09-23,ecopetrol,EC,-0.34,"Characterizing the dynamics, reactivity and controllability of moods in depression with a Kalman filter"
-2024-09-23,ecopetrol,EC,-0.6276,"Application of optical tweezer technology reveals that PfEBA and PfRH ligands, not PfMSP1, play a central role in Plasmodium falciparum merozoite-erythrocyte attachment"
-2024-09-23,ecopetrol,EC,-0.25,Ruangkrai renews call for inquiry into PM's qualifications
-2024-09-23,ecopetrol,EC,-0.4588,EU court dismisses European Commission’s €1.5 billion antitrust fine on Google over unclear market impac
-2024-09-23,ecopetrol,EC,-0.3612,'In Between' by Harsh Goenka
-2024-09-23,petrobras,PBR,-0.9442,"Twin Insurgency, Irregular War, and Oil Theft in Nigeria and Brazil: An Overview"
-2024-09-23,ecopetrol,EC,-0.7096,"Vulnerability Summary for the Week of September 16, 2024"
-2024-09-23,companhia_siderurgica_nacional,SID,-0.2023,"Take-Two Interactive re-elects board members, passes executive pay"
-2024-09-23,aes_andes,AES,-0.9042,Perioperative PD-1/PD-L1 inhibitors for resectable non-small cell lung cancer: A meta-analysis based on randomized controlled trials
 2024-09-23,aes_andes,AES,-0.1742,Kryptina Ransomware Resurfaces in Enterprise Attacks By Mallox
-2024-09-24,light,LGSXY,-0.9477,From the Skies to Silicon: AI in Modern War
-2024-09-24,light,LGSXY,-0.9432,Nonpareils – Rhetoric & Terror (2024)
-2024-09-24,light,LGSXY,-0.9912,"Marshfield man convicted of murder in 2019 Pembroke crash that killed girl, 13"
-2024-09-24,light,LGSXY,-0.296,2001 Porsche 911 Carrera Coupe 6-Speed at No Reserve
-2024-09-24,light,LGSXY,-0.3182,UK to send 700 troops to nearby Cyprus...
-2024-09-24,light,LGSXY,-0.9481,"Supreme Court allows execution of Marcellus Williams, denying bid for delay"
-2024-09-24,light,LGSXY,-0.5574,FCC Fast-Tracks George Soros Purchase of 220+ Radio Stations Before Election
-2024-09-24,light,LGSXY,-0.7964,I keep getting a 405 error on my Django Blog
-2024-09-24,light,LGSXY,-0.5994,"Blumhouse Games bringing ""Fear the Spotlight"" to Switch Oct. 22nd, 2024"
-2024-09-24,light,LGSXY,-0.8271,Bay State’s new gun license live fire training requirement quietly delayed
-2024-09-24,light,LGSXY,-0.8689,Is Jaguars QB Trevor Lawrence in a slump or is this who he really is?
-2024-09-24,light,LGSXY,-0.1779,Meteor streaks over western Oregon Monday night - KGW.com
+2024-09-23,aes_andes,AES,-0.9042,Perioperative PD-1/PD-L1 inhibitors for resectable non-small cell lung cancer: A meta-analysis based on randomized controlled trials
+2024-09-23,pampa_energia,PAM,-0.1511,McCaskill: Trump 'Can't Put Three Sentences Together About His Policies'
+2024-09-23,pampa_energia,PAM,-0.4215,Brinkley: 'Doomsday Scenario if Trump Gets In — People Better Wake Up'
+2024-09-23,vale,VALE,-0.1027,Man's Reaction to Learning He's About To Be a Dad—for 4th Time in 5 Years
+2024-09-23,companhia_siderurgica_nacional,SID,-0.2023,"Take-Two Interactive re-elects board members, passes executive pay"
+2024-09-23,pampa_energia,PAM,-0.0624,32 Times Michael Scott Wasn't The Problem In The Office
+2024-09-23,companhia_siderurgica_nacional,SID,-0.7096,"Vulnerability Summary for the Week of September 16, 2024"
+2024-09-23,companhia_siderurgica_nacional,SID,-0.6597,"""What Are You Teaching To Kids?"" Ex-Pak Star To PCB After India's Test Win"
+2024-09-23,petrobras,PBR,-0.9442,"Twin Insurgency, Irregular War, and Oil Theft in Nigeria and Brazil: An Overview"
+2024-09-23,vale,VALE,-0.1406,Teens ditch muck-up day for wholesome 'senior sunrise' to mark the end of high school
+2024-09-23,pampa_energia,PAM,-0.5267,New Ryan Coogler Movie Starring Michael B. Jordan Unveils Title
+2024-09-24,petrobras,PBR,-0.9092,Amazon: Who should pay for its protection?
+2024-09-24,pampa_energia,PAM,-0.7351,BYBBA Partners With 4Ocean To Combat Plastic Pollution - Print & Promo Marketing
 2024-09-24,pampa_energia,PAM,-0.6705,"All 33 Sebastian Stan movies, ranked by critics"
-2024-09-24,light,LGSXY,-0.0258,Broker says this sold-off ASX 200 tech stock is a buy
-2024-09-24,ecopetrol,EC,-0.9505,"Bats generate lower affinity but higher diversity antibody responses than those of mice, but pathogen-binding capacity increases if protein is restricted in their diet"
-2024-09-24,ecopetrol,EC,-0.6553,EC Video of the Day – A Horseman At Heart
+2024-09-24,aes_andes,AES,-0.7976,Battling e-commerce fraud: how businesses can stay ahead in the digital age (Darya Lyhach)
+2024-09-24,vale,VALE,-0.2263,OpenAI released its advanced voice mode to more people. Here’s how to get it.
+2024-09-24,companhia_siderurgica_nacional,SID,-0.8422,"Stream It Or Skip It: ‘Murder In A Small Town’ On Fox, Where A Harbor Town’s New Police Chief Solves Murders And Falls For The Librarian"
+2024-09-24,petrobras,PBR,-0.8519,The true cost of protecting the Amazon and who should pay
+2024-09-24,vale,VALE,-0.3291,"There's No Wrong Way To Tackle Visions Of Mana's Bosses, But There's A Right Way For You"
+2024-09-24,aes_andes,AES,-0.3612,Reading The Wheel of Time: Elayne Meets Some Children and Learns About Her Own in Crossroads of Twilight (Part 9)
+2024-09-24,petrobras,PBR,-0.7579,"Oil Prices Surge on Supply Uncertainty, Demand Optimism, and Geopolitical Risk"
 2024-09-24,pampa_energia,PAM,-0.7783,CNBC’s Kernen: Harris Campaign Has 'Rope-a-Dope' Strategy to Deliberately Avoid Media
+2024-09-24,companhia_siderurgica_nacional,SID,-0.9217,Famous Figures Who Died Younger Than You Realized (28 PICS)
 2024-09-24,pampa_energia,PAM,-0.765,‘Sinners’ Trailer: Michael B. Jordan Reunites With ‘Black Panther’ Director Ryan Coogler and Battles a Terrifying Evil
 2024-09-24,pampa_energia,PAM,-0.765,Mark Robinson says he’s ‘going after’ CNN following report on history of online comments
-2024-09-24,light,LGSXY,-0.8031,"Clippers' Frank Gives Kawhi Leonard Injury Update, No 'Crystal Ball' on Availability"
 2024-09-24,pampa_energia,PAM,-0.4019,The Truths and Distortions of Ruby Franke
-2024-09-24,light,LGSXY,-0.8723,Project 2025 Mastermind Bragged About Killing A Neighbor's Dog With Shovel
-2024-09-24,light,LGSXY,-0.765,UK leader Starmer aims to shed gloomy image by saying things will get better -- eventually
-2024-09-24,light,LGSXY,-0.3818,The last Insta360 teaser was for two new 4k AI webcams
-2024-09-24,light,LGSXY,-0.7024,Cardinal Dolan ‘disappointed’ Kamala Harris is skipping Al Smith dinner: ‘We’re not used to this’
-2024-09-24,light,LGSXY,-0.8625,"Fever 333 Cancel Fall 2024 Tour, Singer Issues Statement"
-2024-09-24,light,LGSXY,-0.0516,1998 Honda Acty Pickup SDX 4WD 5-Speed at No Reserve
-2024-09-24,light,LGSXY,-0.3818,Britain urges nationals to leave Lebanon
-2024-09-24,light,LGSXY,-0.34,Anna Delvey Addresses Comment About Her Ankle Monitor
-2024-09-24,light,LGSXY,-0.9573,"No RBA rate cut yet, but governor Bullock is about to find the pressure overwhelming"
-2024-09-24,light,LGSXY,-0.9534,'There's no bed space': Fears Beirut hospital system could collapse in wake of Israeli attacks
-2024-09-24,ecopetrol,EC,-0.7579,California Wants To Nag Drivers With Speed Warnings As A Standard Vehicle Feature
-2024-09-24,vale,VALE,-0.2263,OpenAI released its advanced voice mode to more people. Here’s how to get it.
-2024-09-24,vale,VALE,-0.3291,"There's No Wrong Way To Tackle Visions Of Mana's Bosses, But There's A Right Way For You"
-2024-09-24,companhia_siderurgica_nacional,SID,-0.9217,Famous Figures Who Died Younger Than You Realized (28 PICS)
-2024-09-24,companhia_siderurgica_nacional,SID,-0.8422,"Stream It Or Skip It: ‘Murder In A Small Town’ On Fox, Where A Harbor Town’s New Police Chief Solves Murders And Falls For The Librarian"
-2024-09-24,ecopetrol,EC,-0.5267,6 Arthouse Body Horror Films to Watch After ‘The Substance’
-2024-09-24,aes_andes,AES,-0.7976,Battling e-commerce fraud: how businesses can stay ahead in the digital age (Darya Lyhach)
-2024-09-24,aes_andes,AES,-0.3612,Reading The Wheel of Time: Elayne Meets Some Children and Learns About Her Own in Crossroads of Twilight (Part 9)
-2024-09-24,ecopetrol,EC,-0.3818,Sparks fly in IOA as Sahdev Yadav takes on PT Usha
-2024-09-24,ecopetrol,EC,-0.3182,‘After Midnight’ – An Underseen ’80s Horror Anthology
-2024-09-24,ecopetrol,EC,-0.5423,"Investment Analysts’ Price Target Changes for September 24th (ACN, AHR, ALA, ANET, APLS, ATS, AX, AYI, BA, BHVN)"
-2024-09-24,ecopetrol,EC,-0.7003,Is the US Abandoning Europe Because of High Cost and Low Yield? Peter Koenig
-2024-09-24,ecopetrol,EC,-0.1531,"Early intravenous high-dose vitamin C in postcardiac arrest shock (VICEPAC): study protocol for a randomised, single-blind, open-label, multicentre, controlled trial"
-2024-09-24,petrobras,PBR,-0.9092,Amazon: Who should pay for its protection?
-2024-09-24,petrobras,PBR,-0.7579,"Oil Prices Surge on Supply Uncertainty, Demand Optimism, and Geopolitical Risk"
-2024-09-24,ecopetrol,EC,-0.1027,スマートプラスクレジットとエクシーク、EC事業者向けのファイナンスサービスで提携
+2024-09-24,pampa_energia,PAM,-0.296,"No, 65-year-old trainspotter will not be identifying as ‘neurospicy’"
 2024-09-24,pampa_energia,PAM,-0.5574,O'Leary: Harris Lack of Economic Details 'Really Big Sticking Point with Investors'
 2024-09-24,pampa_energia,PAM,-0.5106,"Mary Matalin on Kamala: 'Unless She Can Serve Salad Dressing on It, She Hasn't Said a Thing'"
-2024-09-24,ecopetrol,EC,-0.1027,スマートプラスクレジットとエクシーク、EC事業者向けのファイナンスサービスで提携
-2024-09-24,ecopetrol,EC,-0.2342,株式会社新東通信「成功事例と失敗事例を交えて徹底討論！専門家たちが考えるECグロース戦略とは？」 ウェビナーを10/1（火）に開催
-2024-09-24,pampa_energia,PAM,-0.296,"No, 65-year-old trainspotter will not be identifying as ‘neurospicy’"
-2024-09-24,light,LGSXY,-0.296,Supertec 3.4L RSR-Style 1970 Porsche 911T Coupe 5-Speed at No Reserve
-2024-09-24,light,LGSXY,-0.7914,HP applies AI to fix the most maddening printing problems
-2024-09-24,light,LGSXY,-0.8442,A Bronze Age Conflict: Insights from Europe’s Oldest Known Battlefield
-2024-09-24,light,LGSXY,-0.9022,House Foreign Affairs panel votes to hold Secretary of State Antony Blinken in contempt for refusal to testify on Afghanistan withdrawal
-2024-09-24,light,LGSXY,-0.1984,"LIVE! ‘Contender Series’ Results, Full Fight Highlights"
-2024-09-24,light,LGSXY,-0.7961,Ellen DeGeneres sought therapy after becoming ‘the most hated person in America’ after toxic workplace scandal
-2024-09-24,light,LGSXY,-0.4588,White Sox GM again downplays free agent plans as team finishes worst season in MLB history
-2024-09-24,ecopetrol,EC,-0.4767,Loss-of-function variants in JPH1 cause congenital myopathy with prominent facial and ocular involvement
+2024-09-25,pampa_energia,PAM,-0.5994,Test Accounts: A Hidden Risk
+2024-09-25,vale,VALE,-0.9657,New York court is set to hear Donald Trump's appeal of his $489 million civil fraud verdict
+2024-09-25,pampa_energia,PAM,-0.9678,'It's an insane message': Women voters revolt over Trump vow to 'protect' them
+2024-09-25,pampa_energia,PAM,-0.7783,Hubbard Inn’s TikTok Lawsuit Won’t Stop as Judge Denies Motion to Dismiss
+2024-09-25,cosan,CSAN,-0.296,Destaques
+2024-09-25,vale,VALE,-0.8908,'Quick' cancer DNA test offers hope for thousands
+2024-09-25,vale,VALE,-0.9657,6 things to know about Trump's appeal of his $489 million civil fraud verdict
+2024-09-25,vale,VALE,-0.9509,Trump’s Fight To Avoid Paying $489 Million To Kick Off In Court
+2024-09-25,companhia_siderurgica_nacional,SID,-0.8957,Germany: Charges pressed in Schumacher family blackmail case
+2024-09-25,companhia_siderurgica_nacional,SID,-0.296,Audio-Technica Reveals Premium Direct Drive Automatic Turntable
+2024-09-25,petrobras,PBR,-0.0516,"Petrobras stock has more upside in light of high FCF yields, says JPMorgan"
+2024-09-25,vale,VALE,-0.9657,New York court is set to hear Donald Trump's appeal of his $489 million civil fraud verdict
+2024-09-25,pampa_energia,PAM,-0.775,Why Helene Is Particularly Worrisome For Meteorologists
+2024-09-25,vale,VALE,-0.9509,New York court is set to hear Donald Trump's appeal of his $489 million civil fraud verdict
+2024-09-25,ecopetrol,EC,-0.7579,Google files EU antitrust complaint against Microsoft
+2024-09-25,ecopetrol,EC,-0.1531,Joe Biden Says He Delegated ‘Everything’ to Kamala Harris: ‘Foreign Policy to Domestic Policy
+2024-09-25,aes_andes,AES,-0.7717,African state criticizes lack of action against Ukraine
+2024-09-25,braskem,BAK,-0.25,"Lithium-Ion Battery Market - Global Forecasts from 2024 to 2029: Asia Pacific Region to Dominate, Expanding Demand from Medical Device Markets"
+2024-09-25,pampa_energia,PAM,-0.2732,HSBC considers insider Pam Kaur as its first-ever female CFO
+2024-09-26,vale,VALE,-0.802,Massive civil fraud verdict against Trump gets frosty reception at New York appeals court
+2024-09-26,vale,VALE,-0.719,‘Troubling’: NY Appeals Court Seem Skeptical of Trump’s $454 Million Fine in Civil Fraud Case
+2024-09-26,vale,VALE,-0.8402,Massive civil fraud verdict against Trump gets frosty reception at New York appeals court
+2024-09-26,vale,VALE,-0.9732,"DEVELOPING: NY Appellate Judges Skeptical of Letitia James’ Civil Fraud Case Against Trump, Blast Her Deputy Solicitor General During Opening Statement"
+2024-09-26,vale,VALE,-0.9153,Judge Brings up Trump Argument Against Letitia James During Hearing
+2024-09-26,vale,VALE,-0.9493,Appellate judges skeptical of New York civil fraud case against Trump
+2024-09-26,vale,VALE,-0.946,Trump's Lawyer Urges NY Appeals Court to Toss $489M Civil Fraud Ruling
+2024-09-26,companhia_paranaense_de_energia,ELP,-0.7269,The I7L protein of African swine fever virus is involved in viral pathogenicity by antagonizing the IFN-γ-triggered JAK-STAT signaling pathway through inhibiting the phosphorylation of STAT1
+2024-09-26,vale,VALE,-0.9186,NY appellate judges voice serious doubts about Trump's $454M civil fraud verdict
+2024-09-26,vale,VALE,-0.5267,Appeals Court Questions Trump’s ‘Troubling’ $450 Million Fine In Civil Fraud Case
+2024-09-26,pampa_energia,PAM,-0.4404,Where Does the Olivia Nuzzi–RFK Jr. Fallout End?
+2024-09-26,vale,VALE,-0.891,Judges to hear arguments in Donald Trump's appeal of civil fraud verdict
+2024-09-26,vale,VALE,-0.926,Judges set to hear arguments in Donald Trump's appeal of civil fraud verdict
+2024-09-26,vale,VALE,-0.9657,New York court is set to hear Donald Trump's appeal of his $489 million civil fraud verdict
+2024-09-26,pampa_energia,PAM,-0.1027,NASA Hosts Two Workshops for Consultation on LEO Microgravity Strategy
+2024-09-26,pampa_energia,PAM,-0.6597,From Trump Convictions to Assassination Attempts: How Prediction Markets Have Turned American Politics Into a Casino
+2024-09-26,pampa_energia,PAM,-0.7269,The I7L protein of African swine fever virus is involved in viral pathogenicity by antagonizing the IFN-γ-triggered JAK-STAT signaling pathway through inhibiting the phosphorylation of STAT1
+2024-09-26,braskem,BAK,-0.4019,Combination of bortezomib and venetoclax targets the pro-survival function of LMP-1 and EBNA-3C of Epstein-Barr virus in spontaneous lymphoblastoid cell lines
+2024-09-26,braskem,BAK,-0.9118,101 экшн
+2024-09-26,vale,VALE,-0.802,Massive civil fraud verdict against Trump gets frosty reception at New York appeals court
+2024-09-26,pampa_energia,PAM,-0.9844,Inside The Brutal Murder Of Greggory Smart At The Hands Of His Wife’s Underage Lover
+2024-09-26,vale,VALE,-0.9595,Appellate Judge Calls Trump’s $454M Civil Fraud Judgement ‘Troubling’
+2024-09-26,petrobras,PBR,-0.3595,Rigged K2 Black Panther Battle Tank by EVOLVE Studio LTD
+2024-09-26,petrobras,PBR,-0.7579,Tombstone 3D Gravestone by GVOZDY
+2024-09-26,companhia_siderurgica_nacional,SID,-0.7351,A novel reconstruction model for thoracic spinal cord injury in swine
+2024-09-26,companhia_siderurgica_nacional,SID,-0.9666,Hacking Kia: Remotely Controlling Cars with Just a License Plate
+2024-09-26,ecopetrol,EC,-0.9042,Mahkota polls: Bersatu claim of Syed Hussien's arrest slammed as 'desperate move'
+2024-09-26,copel,ELP,-0.7269,The I7L protein of African swine fever virus is involved in viral pathogenicity by antagonizing the IFN-γ-triggered JAK-STAT signaling pathway through inhibiting the phosphorylation of STAT1
+2024-09-26,ecopetrol,EC,-0.2023,Pope Francis begins trip to 'the heart of Europe'
+2024-09-26,petrobras,PBR,-0.2023,Connecticut trader convicted in Petrobras bribery case
+2024-09-26,petrobras,PBR,-0.3818,Connecticut trader convicted in Petrobras bribery case
+2024-09-26,aes_andes,AES,-0.9628,goTenna Pro ATAK Plugin
+2024-09-26,aes_andes,AES,-0.9682,goTenna Pro X and Pro X2
+2024-09-26,aes_andes,AES,-0.34,"Study protocol of the ASTOP trial: A multicenter, randomized, double-blind, placebo-controlled trial of presurgical aspirin administration for the prevention of thromboembolic complications of coil embolization for ruptured aneurysms"
+2024-09-26,aes_andes,AES,-0.4019,Combination of bortezomib and venetoclax targets the pro-survival function of LMP-1 and EBNA-3C of Epstein-Barr virus in spontaneous lymphoblastoid cell lines
+2024-09-26,petrobras,PBR,-0.7579,Tombstone Gravestone 3D RIP stone by GVOZDY
+2024-09-26,petrobras,PBR,-0.8271,Tombstone Concrete Old New dirty moldy by GVOZDY
+2024-09-26,petrobras,PBR,-0.7184,Concrete Dirty Tombstone Clean 3D by GVOZDY
+2024-09-26,petrobras,PBR,-0.8271,Tombstone Old Dirty New 3D model by GVOZDY
+2024-09-26,petrobras,PBR,-0.7003,Tombstone 3D realistic concrete by GVOZDY
+2024-09-26,petrobras,PBR,-0.126,Rigged Challenger II Battle Tank by EVOLVE Studio LTD
+2024-09-26,companhia_siderurgica_nacional,SID,-0.6705,Monsters: The Lyle and Erik Menendez Story cast respond to brother’s criticism
+2024-09-26,ecopetrol,EC,-0.128,"Umno won't waver in its struggle because of one trip to China, Zahid tells Perikatan"
+2024-09-26,vale,VALE,-0.8591,Trump Is on the Brink of a Win in His Massive New York Fraud Case
+2024-09-26,ecopetrol,EC,-0.5647,Multiple independent losses of crossover interference during yeast evolutionary history
+2024-09-26,pampa_energia,PAM,-0.6428,Blanked or rejected: is finding a job harder than ever in Europe and the US?
+2024-09-26,ecopetrol,EC,-0.8932,"Except for billionaires and vast empty expanses of dirt, just about everyone hates the electoral college [Obvious]"
+2024-09-26,ecopetrol,EC,-0.7269,EC members refuse to ratify Iyer's appointment as IOA CEO
+2024-09-26,ecopetrol,EC,-0.9081,"Indonesia, Malaysia simulate flood evacuation in joint exercise"
+2024-09-26,ecopetrol,EC,-0.1531,PT Usha confronted at IOA over CEO's huge pay package
+2024-09-26,ecopetrol,EC,-0.7096,Sprint Legend PT Usha Involved In 'Heated Confrontation' With IOA Members
+2024-09-26,ecopetrol,EC,-0.5719,"Colombia in Energy Crisis as Gas Demand Soars, Pipeline CEO Says"
+2024-09-26,ecopetrol,EC,-0.6506,Structure-guided in vitro evolution of nanobodies targeting new viral variants
+2024-09-26,ecopetrol,EC,-0.7913,"IOA Impasse: Usha, EC members clash on CEO appointment; deadlock persists"
+2024-09-26,ecopetrol,EC,-0.128,Hypopituitarism in Sox3 null mutants correlates with altered NG2-glia in the median eminence and is influenced by aspirin and gut microbiota
+2024-09-27,vale,VALE,-0.9313,Letitia James’ massive Trump civil fraud victory in question after appellate argument
+2024-09-27,light,LGSXY,-0.6515,"Top 10 players on NBA trade block? Brandon Ingram, Zach LaVine among those who could be dealt this season"
+2024-09-27,light,LGSXY,-0.1311,Bitwig Opens Premium Sound Content Shop (in: Bitwig)
+2024-09-27,light,LGSXY,-0.91,OpenAI execs were reportedly worried the company could collapse when Ilya Sutsveker left — and tried to woo him back
+2024-09-27,light,LGSXY,-0.8934,Did Hurricane Helene damage Augusta National trees? Here's what we know.
+2024-09-27,light,LGSXY,-0.7717,Revealed: Jack Smith's new Trump evidence could reach the public before election
+2024-09-27,light,LGSXY,-0.8792,Climate-Protesting Art Vandals Throw Soup At Van Gogh’s “Sunflowers” Again
+2024-09-27,light,LGSXY,-0.6369,OpenAI execs were reportedly worried the company could collapse when Ilya Sutsveker left — and tried to woo him back
+2024-09-27,light,LGSXY,-0.9528,I Went to Halloween Horror Nights ALONE and It Did NOT Go As Expected
+2024-09-27,light,LGSXY,-0.1561,Pick up the entire Metro Franchise for its lowest price ever on GOG
+2024-09-27,light,LGSXY,-0.7882,Why are so many people with ADHD behind bars? - No Such Thing as Normal
+2024-09-27,light,LGSXY,-0.9633,"Hurricane Helene ravages the Southeast, killing at least 22 and leaving millions without power"
+2024-09-27,light,LGSXY,-0.2737,Wimbledon given green light for controversial expansion plan
+2024-09-27,light,LGSXY,-0.8271,Leon Thomas Embraces His Imperfections With Class On The Vulnerable ‘Mutt’
+2024-09-27,light,LGSXY,-0.9118,Vance’s private criticisms of Trump reportedly extended into 2020
+2024-09-27,light,LGSXY,-0.2023,"Lana Del Rey surprises everyone by saying ""I do"" in the middle of the Bayou"
+2024-09-27,light,LGSXY,-0.6222,Newest Starlink satellites are leaking even more radiation than their predecessors — and could soon disrupt astronomy
+2024-09-27,light,LGSXY,-0.8225,Health Rounds: Sleep shortage during pregnancy may hurt baby's brain
+2024-09-27,light,LGSXY,-0.6911,Retired Israeli General Giora Eiland called for starving Gaza. Does he regret it?
+2024-09-27,light,LGSXY,-0.659,J.D. Vance’s Stunning 2020 Admission About Trump Exposes Big MAGA Scam
+2024-09-27,pampa_energia,PAM,-0.9217,‘Let The Evil Go West’: Everything To Know So Far About Sebastian Stan And Lily James’ Reunion For A Psychological Horror Movie
+2024-09-27,light,LGSXY,-0.9382,Screaming Biden says Democrats 'are the ones funding cops' at gun event where he butchers J.D. Vance's name and says Americans couldn't own a cannon in the 18th century
+2024-09-27,light,LGSXY,-0.367,Bibi Puts Tehran on Notice in Fiery UN Speech: ‘There is No Place in Iran That the Long Arm of Israel Cannot Reach’
+2024-09-27,light,LGSXY,-0.886,How Sean Penn's Oscar-Nominated 1998 Movie Accurately Portrays Army's Role Explained By Historian
+2024-09-27,ecopetrol,EC,-0.7906,"Taken from mother by nuns, victim finds solace in pope Belgium visit"
+2024-09-27,light,LGSXY,-0.7906,Beauty queen suffers 2nd-degree burns after pressure cooker explosion: ‘They are very dangerous’
+2024-09-27,light,LGSXY,-0.3818,5 Reasons Why the REDMAGIC Nova is the Ultimate Gaming Tablet
+2024-09-27,light,LGSXY,-0.1179,"Mark Zuckerberg Calls Out Tech Firms: No Technical Skills In Leadership? You're ""Not A Technology Company"""
+2024-09-27,light,LGSXY,-0.9313,"Hundreds Dead and More Than 1,200 Wounded in Intensive Israeli Airstrikes Targeting Lebanon"
+2024-09-27,companhia_siderurgica_nacional,SID,-0.7456,"Decades After Breaking Up, Sex Pistols Score Several Hit Singles"
+2024-09-27,companhia_siderurgica_nacional,SID,-0.1779,Cyclist Muriel Furrer dies after World Championship crash
+2024-09-27,companhia_siderurgica_nacional,SID,-0.6322,2024-25 Fantasy Hockey Position Battles: Cam Talbot likely gets the majority of starts at goalie for Red Wings
+2024-09-27,companhia_siderurgica_nacional,SID,-0.9872,NASTY SAVAGE's NASTY RONNIE Names The Nastiest Bands Of All Time
+2024-09-27,ecopetrol,EC,-0.3182,"Molecular characterization, virulence and antimicrobial and biocidal susceptibility of selected bacteria isolated from the cloaca of nestling ospreys (Pandion haliaetus) from Mono Lake, California, USA"
+2024-09-27,ecopetrol,EC,-0.0772,EC questions Maharashtra government over transfer orders
+2024-09-27,ecopetrol,EC,-0.0772,EC questions Maharashtra government over transfer orders
+2024-09-27,braskem,BAK,-0.9623,Kid Maroon & Godfather Of Hell in Vault Comics' December 2024 Solicits
+2024-09-27,braskem,BAK,-0.9169,"Founding member of JUMBO group, 88, fined over accident that killed 72-year-old passenger"
+2024-09-27,vale,VALE,-0.926,JUST IN: Appeals Court Appears Open To Tossing Letitia James’ Trump Case After Brutal Hearing
+2024-09-27,vale,VALE,-0.926,Appeals Court Seems Skeptical Of Letitia James' New York Civil Fraud Suit Against Trump
+2024-09-27,vale,VALE,-0.9493,Appellate Judges Skeptical of New York Civil Fraud Case Against Trump
+2024-09-27,light,LGSXY,-0.5106,He’s Been America’s Weirdest Politician for Years. You Don’t Know the Half of It.
+2024-09-27,aes_andes,AES,-0.7574,Estimating ecological network robustness with R: A functional approach*
+2024-09-27,vale,VALE,-0.1098,'I can't enjoy student life until I get a job'
+2024-09-27,pampa_energia,PAM,-0.4767,Baton Rouge pizza spot on market with a lower asking price
+2024-09-27,pampa_energia,PAM,-0.6808,"Marc Lotter: Trump Has No Reason for Second Debate, He Is Leading Harris"
+2024-09-27,pampa_energia,PAM,-0.2023,Emhoff: 'Anti-Semitic' Trump Is Putting a Target on the Backs of Jewish Americans
+2024-09-27,pampa_energia,PAM,-0.9081,How 'Chimp Crazy' Was Edited With Ethics
+2024-09-27,vale,VALE,-0.9081,Murder victim's loved ones confront killer in SA court
+2024-09-27,vale,VALE,-0.8709,New research reveals which suburbs scammers target the most as experts warn Aussies to ‘be on alert’
+2024-09-27,vale,VALE,-0.8834,"Donald Trump Fraud Ruling Could Be Reversed, Appeals Court Indicates"
+2024-09-27,pampa_energia,PAM,-0.5769,In The Club
+2024-09-27,light,LGSXY,-0.9325,Caitlin Clark condemns racist ‘trolls’ threatening WNBA players
+2024-09-27,light,LGSXY,-0.25,Caitlin Clark Finally Claps at the Fake 'Fans' Who Are Actually Racists
+2024-09-27,light,LGSXY,-0.5267,What the alleged Trump campaign dossier on J.D. Vance may actually be telling us
+2024-09-27,ecopetrol,EC,-0.2263,"European Union, China to end dispute over EV tariffs by setting minimum price on made-in-China EVs"
+2024-09-27,ecopetrol,EC,-0.1027,All India Tennis Association in turmoil
