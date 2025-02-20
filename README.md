@@ -49,6 +49,8 @@ En **EnergySmart Invest**, nuestro objetivo es proporcionar herramientas innovad
   
   [Linkedin](https://www.linkedin.com/in/laura-m-3a878b212/)
 
+  [Github](https://github.com/lauraminayaa) 
+
   [Gmail](mailto:lauminagui@gmail.com)
 
 ## Objetivo del proyecto 🚩
